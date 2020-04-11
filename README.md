@@ -1,2 +1,2 @@
 # WTRTI
-WarThunder Real-Time Information 0.6
+WarThunder Real-Time Information 0.6.1
