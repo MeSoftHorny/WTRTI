@@ -8,6 +8,8 @@
         <img src="https://img.shields.io/github/v/release/MeSoftHorny/WTRTI?style=for-the-badge" /></a>
 </p>
 <p align="center">
+<a href="https://www.buymeacoffee.com/mesofthorny" alt="Support">
+        <img src="https://img.shields.io/badge/BuyMeACoffee-Support_-yellow?style=for-the-badge&logo=buymeacoffee" /></a>
 <a href="https://www.patreon.com/wtrti" alt="Support">
         <img src="https://img.shields.io/badge/Patreon-Support_-red?style=for-the-badge&logo=patreon" /></a>
           
