@@ -18,5 +18,5 @@
 
 <h1 align="center"></h1>
 
-**[Forum and More Info...](https://forum.warthunder.com/index.php?/topic/483838-warthunder-real-time-information)**
+**[Forum and More Info...](https://old-forum.warthunder.com/index.php?/topic/483838-warthunder-real-time-information)**
 
