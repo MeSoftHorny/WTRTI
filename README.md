@@ -2,14 +2,14 @@
 
 <p align="center">
 <a href="https://github.com/MeSoftHorny/WTRTI/releases" alt="Downloads">
-        <img src="https://img.shields.io/github/downloads/MeSoftHorny/WTRTI/total?style=for-the-badge" /></a>
+        <img src="https://img.shields.io/github/downloads/MeSoftHorny/WTRTI/total?style=for-the-badge&color=228B22" /></a>
 
 <a href="https://github.com/MeSoftHorny/WTRTI/releases/latest" alt="Latest release">
         <img src="https://img.shields.io/github/v/release/MeSoftHorny/WTRTI?style=for-the-badge" /></a>
 </p>
 <p align="center">
 <a href="https://discord.gg/XAEYmRM5NG" alt="Discord">
-        <img src="https://img.shields.io/discord/1125375463880138802?logo=discord&label=Discord&style=for-the-badge&color=228B22" /></a>
+        <img src="https://img.shields.io/discord/1125375463880138802?logo=discord&label=Discord&style=for-the-badge&color=483D8B" /></a>
 <a href="https://www.patreon.com/wtrti" alt="Support">
         <img src="https://img.shields.io/badge/Patreon-Support_-red?style=for-the-badge&logo=patreon" /></a>
           
@@ -22,9 +22,9 @@
 
 ### Features:
 - More than 30 types of indicators (Climb, AoA, Turning time, Turning radius, Fuel consumption, WEP remain, Booster remain, etc.).
-- Two types of OSD(On-screen display):
-      RTSS - using "RivaTuner Statistics Server" OSD functionality. Works with any window mode.
-      WTRTI - Borderless window with transparency. Requires "Fullscreen Window" mode to be enabled.
+- Two types of OSD (On-screen display):  
+      RTSS - using "RivaTuner Statistics Server" OSD functionality. Works with any window mode.  
+      WTRTI - Borderless window with transparency. *Requires "Fullscreen Window" mode to be enabled.*
 - Custom indicators, allows you to make a new indicators with a specific reading properties from localhost:8111.
 - Lua scripts, for custom processing of indicator values.
 - Custom "Alert" conditions for indicators, with Sound triggering.
