@@ -16,12 +16,11 @@
 </p>
 <h1 align="center"></h1>
 
-**WarThunder Real-Time Information**, a highly customizable HUD overlay and logging tool for War Thunder.
-
-<h1 align="center"></h1>
-
-### Features:
-- More than 30 types of indicators (Climb, AoA, Turning time, Turning radius, Fuel consumption, WEP remain, Booster remain, etc.).
+**WarThunder Real-Time Information**, a highly customizable HUD overlay and logging tool for War Thunder.    
+  
+## Features
+- More than 30 types of indicators (Climb, AoA, Turning time, Turning radius, Fuel consumption, WEP remain, Booster remain, etc.).  
+  Note: Ammo related information is not available (or very limited) on the web-map, so it cannot be added to the app.
 - Two types of OSD (On-screen display):  
       RTSS - using "RivaTuner Statistics Server" OSD functionality. Works with any window mode.  
       WTRTI - Borderless window with transparency. *Requires "Fullscreen Window" mode to be enabled.*
@@ -34,64 +33,52 @@
 - "Game chat" window, with ability translate in-game chat messages by opening Google Translate web-page or in-app translate (Lingva.ml).
 - "Battle Log" window, with a keyword highlight.
 
-
-<h1 align="center"></h1>
-
-### How it works:
+## How it works
 WTRTI does not make any changes to the game process or its data, it 'only' processes data from localhost:8111(web-map) and displays it on a screen.
 
-<h1 align="center"></h1>
-
-### Installation:
+## Installation
 1. Download [the latest version](https://github.com/MeSoftHorny/WTRTI/releases)
 2. Extract it to a seperate folder with write permissions. Make sure it is not in the game root directory, otherwise the game launcher will delete WTRTI.exe file in there.
 3. Run WTRTI.exe.
 
-
-### Upgrade from previous versions:
+### Upgrade from previous versions
 Simply extract the downloaded zip file into the folder where the old version is located.
+  
 
-
-<h1 align="center"></h1>
-
-### System requirements:
-
+## System requirements
 - Game: Full client+  
 *DEV Server or Minimal client users, see Troubleshooting section for a workaround.*
-- OS: Windows: 7 or higher  
+- OS: Windows 7 or higher  
 Linux: Ubuntu 20.04 and later  
 *Borderless window mode requires Compositor to be enabled.*  
 - Graphics: Any OpenGL 3.3 compatible GPU or greater  
 *RTSS OSD: Rivatuner Statistics Server v7.3+. [Download](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)*
 - VR: SteamVR
 
-<h1 align="center"></h1>
-
-### Troubleshooting:
+## Troubleshooting
 _**"Not working with DEV server":**_  
-    WTRTI may not work, if the vehicle does not have a cockpit or the game client is Minimal, which causes the indicators.json file to be missing on localhost:8111.  
+    &nbsp;&nbsp;&nbsp;&nbsp;WTRTI may not work, if the vehicle does not have a cockpit or the game client is Minimal, which causes the indicators.json file to be missing on localhost:8111.  
     In this case, try enabling "Handle data in every game mode" (Settings -> Advanced tab).  
-    Beware: Some of the indicators will not work (e.g Critical AoA, Wing Flutter), due to the limited amount of data available from localhost:8111.  
+    Note: Some of the indicators will not work (e.g Critical AoA, Wing Flutter), due to the limited amount of data available from localhost:8111.  
 
 _**"OSD is not show up" or "Data is not updated in the main window":**_  
-    If you have Antivirus, try to add exclusion for WTRTI.  
+    &nbsp;&nbsp;&nbsp;&nbsp;If you have Antivirus, try to add exclusion for WTRTI.  
  
 _**"The overlay is stuttering/freezing" or "Data is not updating when ALT-TAB to the game":**_  
-    Try to turn off the "Hardware Accelerated GPU Scheduling": https://www.thenerdmag.com/how-to-turn-off-hardware-accelerated-gpu-scheduling-on-windows-10/  
+    &nbsp;&nbsp;&nbsp;&nbsp;Try to turn off the "Hardware Accelerated GPU Scheduling": https://www.thenerdmag.com/how-to-turn-off-hardware-accelerated-gpu-scheduling-on-windows-10/  
 
 _**"RTSS OSD is not working":**_  
-    RTSS may conflict with other overlays, try disabling them first.  
+    &nbsp;&nbsp;&nbsp;&nbsp;RTSS may conflict with other overlays, try disabling them first.  
     If you running the game through Steam, you can disable overlay for War Thunder, just open Properties->General-> Uncheck the "Enable the Steam Overlay while in-game"  
- 
 
 _**"WTRTI OSD: transparency is not working/black rectangle":**_  
-    Windows: The Compositor on your system is not working properly. Can be a few things:  
+    &nbsp;&nbsp;&nbsp;&nbsp;**Windows:** The Compositor on your system is not working properly. Can be a few things:  
         1. Graphics driver issue, try to reinstall.  
         2. Windows is corrupted (sfc /scannow).  
-    Linux: Try to enable the compositor (kwin, compiz, picom).  
+    **Linux:** Try to enable the compositor (kwin, compiz, picom).  
  
 _**"Flight data is not being written to the CSV file":**_  
-    Perhaps Antivirus restricts write access, try to add exclusion for WTRTI.  
+    &nbsp;&nbsp;&nbsp;&nbsp;Perhaps Antivirus restricts write access, try to add exclusion for WTRTI.  
 
 <h1 align="center"></h1>
 
