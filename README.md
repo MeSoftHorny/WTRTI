@@ -7,6 +7,8 @@
 <a href="https://github.com/MeSoftHorny/WTRTI/releases/latest" alt="Latest release">
         <img src="https://img.shields.io/github/v/release/MeSoftHorny/WTRTI?style=for-the-badge" /></a>
 </p>
+
+<h1 align="center"></h1>
 <p align="center">
 <a href="https://discord.gg/XAEYmRM5NG" alt="Discord">
         <img src="https://img.shields.io/discord/1125375463880138802?logo=discord&label=Discord&style=for-the-badge&color=483D8B" /></a>
@@ -53,9 +55,12 @@ Linux: Ubuntu 20.04 and later
 *Borderless window mode requires Compositor to be enabled.*  
 - Graphics: Any OpenGL 3.3 compatible GPU or greater  
 *RTSS OSD: Rivatuner Statistics Server v7.3+. [Download](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)*
-- VR: SteamVR
+- VR: SteamVR (see Docs/README.txt for more info).
 
 ## Troubleshooting
+_**"The overlay is stuttering/freezing" or "Data is not updating when ALT-TAB to the game":**_  
+    &nbsp;&nbsp;&nbsp;&nbsp;Try to turn off the "Hardware Accelerated GPU Scheduling": https://www.thenerdmag.com/how-to-turn-off-hardware-accelerated-gpu-scheduling-on-windows-10/  
+
 _**"Not working with DEV server":**_  
     &nbsp;&nbsp;&nbsp;&nbsp;WTRTI may not work, if the vehicle does not have a cockpit or the game client is Minimal, which causes the indicators.json file to be missing on localhost:8111.  
     In this case, try enabling "Handle data in every game mode" (Settings -> Advanced tab).  
@@ -63,9 +68,6 @@ _**"Not working with DEV server":**_
 
 _**"OSD is not show up" or "Data is not updated in the main window":**_  
     &nbsp;&nbsp;&nbsp;&nbsp;If you have Antivirus, try to add exclusion for WTRTI.  
- 
-_**"The overlay is stuttering/freezing" or "Data is not updating when ALT-TAB to the game":**_  
-    &nbsp;&nbsp;&nbsp;&nbsp;Try to turn off the "Hardware Accelerated GPU Scheduling": https://www.thenerdmag.com/how-to-turn-off-hardware-accelerated-gpu-scheduling-on-windows-10/  
 
 _**"RTSS OSD is not working":**_  
     &nbsp;&nbsp;&nbsp;&nbsp;RTSS may conflict with other overlays, try disabling them first.  
