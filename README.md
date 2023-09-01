@@ -19,7 +19,11 @@
 <h1 align="center"></h1>
 
 **WarThunder Real-Time Information**, a highly customizable HUD overlay and logging tool for War Thunder.    
-  
+
+<h1 align="center"></h1>
+
+![alt text](images/wtrti_themes.png)
+
 ## Features
 - More than 30 types of indicators (Climb, AoA, Turning time, Turning radius, Fuel consumption, WEP remain, Booster remain, etc.).  
   Note: Ammo related information is not available (or very limited) on the web-map, so it cannot be added to the app.
