@@ -14,7 +14,6 @@
         <img src="https://img.shields.io/discord/1125375463880138802?logo=discord&label=Discord&style=for-the-badge&color=483D8B" /></a>
 <a href="https://www.patreon.com/wtrti" alt="Support">
         <img src="https://img.shields.io/badge/Patreon-Support_-red?style=for-the-badge&logo=patreon" /></a>
-          
 </p>
 <h1 align="center"></h1>
 
@@ -32,9 +31,10 @@
       WTRTI - Borderless window with transparency. *Requires "Fullscreen Window" mode to be enabled.*
 - Custom indicators, allows you to make a new indicators with a specific reading properties from localhost:8111.
 - Lua scripts, for custom processing of indicator values.
-- Custom "Alert" conditions for indicators, with Sound triggering.
+- Custom "Alert" conditions for indicators, with Sound playback.
 - VR support (SteamVR only).
 - Per-vehicle profile, with automatic loading at the beginning of a battle.
+- Hotkey actions (e.g. Profile loading).
 - Logging flight data into .csv file (Comma-separated values).
 - "Game chat" window, with ability translate in-game chat messages by opening Google Translate web-page or in-app translate (Lingva.ml).
 - "Battle Log" window, with a keyword highlight.
@@ -49,17 +49,16 @@ WTRTI does not make any changes to the game process or its data, it 'only' proce
 
 ### Upgrade from previous versions
 Simply extract the downloaded zip file into the folder where the old version is located.
-  
+
 
 ## System requirements
-- Game: Full client+  
-*DEV Server or Minimal client users, see Troubleshooting section for a workaround.*
-- OS: Windows 7 or higher  
-Linux: Ubuntu 20.04 and later  
-*Borderless window mode requires Compositor to be enabled.*  
-- Graphics: Any OpenGL 3.3 compatible GPU or greater  
+- **Game**: Full client+  
+_**DEV Server** or **Minimal client** users, see **Troubleshooting** section for a workaround._
+- **OS**: Windows 7 or higher.  
+Linux: Ubuntu 20.04 and later. *Borderless window mode requires Compositor (eg. kwin, compiz).*
+- **Graphics**: Buit-in OSD: Any OpenGL 3.3 compatible GPU or greater.  
 *RTSS OSD: Rivatuner Statistics Server v7.3+. [Download](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)*
-- VR: SteamVR (see Docs/README.txt for more info).
+- **VR**: SteamVR (see Docs/README.txt for more info).
 
 ## Troubleshooting
 _**"The overlay is stuttering/freezing" or "Data is not updating when ALT-TAB to the game":**_  
@@ -68,21 +67,21 @@ _**"The overlay is stuttering/freezing" or "Data is not updating when ALT-TAB to
 _**"Not working with DEV server":**_  
     &nbsp;&nbsp;&nbsp;&nbsp;WTRTI may not work, if the vehicle does not have a cockpit or the game client is Minimal, which causes the indicators.json file to be missing on localhost:8111.  
     In this case, try enabling "Handle data in every game mode" (Settings -> Advanced tab).  
-    Note: Some of the indicators will not work (e.g Critical AoA, Wing Flutter), due to the limited amount of data available from localhost:8111.  
+    **Note:** Some indicators may not work due to the limited amount of data available from localhost:8111, e.g. Critical AoA, Critical Air Speed.
 
 _**"OSD is not show up" or "Data is not updated in the main window":**_  
     &nbsp;&nbsp;&nbsp;&nbsp;If you have Antivirus, try to add exclusion for WTRTI.  
 
 _**"RTSS OSD is not working":**_  
     &nbsp;&nbsp;&nbsp;&nbsp;RTSS may conflict with other overlays, try disabling them first.  
-    If you running the game through Steam, you can disable overlay for War Thunder, just open Properties->General-> Uncheck the "Enable the Steam Overlay while in-game"  
+    If you running the game through Steam, try to disable Steam Overlay for War Thunder, just open Properties->General-> Uncheck the "Enable the Steam Overlay while in-game".  
 
 _**"WTRTI OSD: transparency is not working/black rectangle":**_  
     &nbsp;&nbsp;&nbsp;&nbsp;**Windows:** The Compositor on your system is not working properly. Can be a few things:  
         1. Graphics driver issue, try to reinstall.  
         2. Windows is corrupted (sfc /scannow).  
-    **Linux:** Try to enable the compositor (kwin, compiz, picom).  
- 
+    **Linux:** Try to enable the compositor (kwin, compiz, picom).
+
 _**"Flight data is not being written to the CSV file":**_  
     &nbsp;&nbsp;&nbsp;&nbsp;Perhaps Antivirus restricts write access, try to add exclusion for WTRTI.  
 
