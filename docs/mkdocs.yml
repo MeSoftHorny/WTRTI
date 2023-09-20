@@ -1,0 +1,44 @@
+site_name: WTRTI
+
+markdown_extensions:
+  - attr_list
+
+nav:
+  - Getting Started: index.md
+  - Features: features.md
+  - Troubleshooting: troubleshooting.md
+  - Lua API: lua-api.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/XAEYmRM5NG
+    - icon: fontawesome/brands/patreon
+      link: https://patreon.com/wtrti
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.indexes
+  logo: images/icon.png
+  favicon: images/icon.png
+  palette: 
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    - scheme: default
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
