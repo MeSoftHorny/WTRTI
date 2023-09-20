@@ -38,8 +38,8 @@ You can **Add**, **Delete** and **Set** a color slots (maximum 32).
 By default, all indicators have the same color scheme (All).  
 ![#](images/wtrti_color_scheme_all.png)
 
-You can change the color for every part of a indicator: Name, Value, Units.  
-If you want set up colors for a specific indicator, enable the **Separate** Color scheme, then you can change the colors in the indicators settings.  
+You can change the color for every part of an indicator: Name, Value, Units.  
+If you want to set up colors for a specific indicator, enable the **Separate** Color scheme, then you can change the colors in the indicators settings.  
 ![#](images/wtrti_color_scheme_separate.png)
 ![#](images/wtrti_indic_colors.png)
 
@@ -60,7 +60,7 @@ Loading profiles by Hotkeys (Profiles slots). Only works while in the battle. Ma
 ![#](images/wtrti_hotkey_profiles.png)
 
 ## Indicators
-Double-click on the indicator in the main window to open the indcator settings window.
+Double-click on the indicator in the main window to open the indicator settings window.
 
 ### General
 #### Alert
@@ -83,8 +83,8 @@ Enable the option and specify the **key** that will be in this list.
 
 ![#](images/wtrti_indic_advanced_in_state.png)
 
-All In-State indicators are calculated in a separate order, from top to bottom, before of Non-In-State indicators.  
-An indicator with an In-State key that depends on another In-State indicator (chained), must be placed below of that indicator in the main list, otherwise it will be **N/A**.  
+All In-State indicators are calculated in a separate order, from top to bottom, before Non-In-State indicators.  
+The indicator with an in-state key that depends on another in-state indicator (chained), must be placed below that indicator in the main list, otherwise it will be **N/A**.  
 
 
 ## Logging the data to a CSV file
@@ -107,14 +107,14 @@ You can toggle `Logging` for a specific indicator in the **Indicator's Settings*
 
 ## Game Chat
 Game chat - allows you to see, copy or translate messages of the in-game chat.  
-You can enable auto-logging feature, **Game Chat** -> **Settings** -> **Logging**, this will automatically write into log file for every game session.  
+You can enable the auto-logging feature, **Game Chat** -> **Settings** -> **Logging**, this will automatically write into a log file for every game session.  
 Log files are located in the **Logs** folder.  
 ![#](images/wtrti_game_chat.png)
 
 
 ## Battle Log
 Shows recorded battle events, with ability Logging to file.  
-You can enable auto-logging feature, **Battle Log** -> **Settings** -> **Logging**, this will automatically write into log file for every game session.  
+You can enable the auto-logging feature, **Battle Log** -> **Settings** -> **Logging**, this will automatically write into a log file for every game session.  
 Log files are located in the **Logs** folder.  
 ![#](images/wtrti_battle_log.png)
 
@@ -139,21 +139,21 @@ To make settings to be available in SteamVR, you need first go in a "Test Flight
 - **CTRL + ALT + V** - toggles "HMD tracking" mode.
 - **CTRL + ALT + Z** - toggles "Left controller tracking" mode.
 - **CTRL + ALT + X** - toggles "Right controller tracking" mode.
-- **CTRL + ALT + S** - saves overlay's position and rotation from "tracking" modes to the no "tracking" mode.
-- **SHIFT + ALT + R** - resets overlay's position and rotation(x:0.0, y:0.0, z:-0.5).
-- **SHIFT + ALT + LEFT/RIGHT** - moves overlay along the X axis.
-- **SHIFT + ALT + UP/DOWN** - moves overlay along the Y axis.
-- **SHIFT + ALT + PAGE UP/PAGE DOWN** - moves overlay along the Z axis.
-- **SHIFT + ALT + Q** - decrease overlay's size.
-- **SHIFT + ALT + E** - increase overlay's size.
+- **CTRL + ALT + S** - saves the overlay's position and rotation from "tracking" modes to the no "tracking" mode.
+- **SHIFT + ALT + R** - resets the overlay's position and rotation(x:0.0, y:0.0, z:-0.5).
+- **SHIFT + ALT + LEFT/RIGHT** - moves the overlay along the X axis.
+- **SHIFT + ALT + UP/DOWN** - moves the overlay along the Y axis.
+- **SHIFT + ALT + PAGE UP/PAGE DOWN** - moves the overlay along the Z axis.
+- **SHIFT + ALT + Q** - decrease the overlay's size.
+- **SHIFT + ALT + E** - increase the overlay's size.
 
 
 ### Oculus users
-To make the game to run through SteamVR, you have to set the compatibility mode to Windows 7, for aces.exe in win32 and win64 folders.  
+To make the game run through SteamVR, you have to set the compatibility mode to Windows 7, for aces.exe in win32 and win64 folders.  
 How-To: In the game root folder, open win32 folder and find aces.exe, open its Properties and set Compatibility mode to Windows 7:  
 ![#](images/aces_properties.png)
 
-Do the same for aces.exe in win64 folder.  
+Do the same for aces.exe in the win64 folder.  
 It is also recommended to run the game through Steam.  
 
 
@@ -192,12 +192,12 @@ Open **Add** window (**+** button) -> **New** (or **RMB** on the indicators list
 ![!](images/wtrti_custom_indic_2.png)
 
 Use **State** window(press **F2** in the main window) to see which parameters are available.  
-> **Note:** Empty **State Key** - switches the current indicator into "label" mode, which will only show OSD name and triggering an alerts.  
+> **Note:** Empty **State Key** - switches the current indicator into "label" mode, which will only show OSD name and trigger an alerts.  
 
 ![!](images/wtrti_state.png)
 
 #### Multiple values
-Replacing numbers in the **State Key** with `%d`, allows to read multiple parameters (e.g. multiple engines) with the same key.  
+Replacing numbers in the **State Key** with `%d`, allows reading multiple parameters (e.g. multiple engines) with the same key.  
 Examples:  
 **`RPM 1`** -> **`RPM %d`**  
 **`manifold_pressure1`** -> **`manifold_pressure%d`**  

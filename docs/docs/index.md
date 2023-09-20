@@ -5,7 +5,7 @@ A highly customizable HUD overlay and logging tool for War Thunder.
 ![#](images/wtrti_themes.png)
 
 
-[Donwload](https://github.com/MeSoftHorny/WTRTI/releases/latest/){ .md-button .md-button--primary }
+[Download](https://github.com/MeSoftHorny/WTRTI/releases/latest/){ .md-button .md-button--primary }
 
 ## Features
 - More than 30 types of indicators (Climb, AoA, Turning time, Turning radius, Fuel consumption, WEP remain, Booster remain, etc.).  
