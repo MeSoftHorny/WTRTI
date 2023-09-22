@@ -40,5 +40,5 @@ theme:
       primary: black
       accent: blue
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-7
         name: Switch to dark mode
