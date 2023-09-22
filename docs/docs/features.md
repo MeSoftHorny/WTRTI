@@ -228,6 +228,17 @@ Set another PC's **local** IP address in **Settings** -> **Network** -> **Addres
 2. Start WTRTI, open **Settings -> Advanced tab -> Enable "TCP Listener"**.
 3. Start the game.
 
+### Multiplayer
+#### Hosted server
+Check if the server has these options in the DCS World multiplayer lobby window:
+
+![#](images/dcs_mp_server_permissions.png)
+
+#### Creating a Server
+Click on **Advanced** and enable these options:
+
+![#](images/dcs_mp_server_settings.png)
+
 <!-- TODO: MULTIPLAYER -->
 
 ## Changing the fonts
