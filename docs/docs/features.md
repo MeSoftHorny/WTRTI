@@ -131,6 +131,9 @@ VR support is implemented with **SteamVR**.
 2. Start WTRTI and enable **VR mode** (**Settings -> Advanced**). 
 3. Click the **VR** button in the main window to display the **VR Settings**.
 
+If you have an iGPU, make sure you are using WTRTI on the discrete GPU (High performance):
+https://pureinfotech.com/set-gpu-app-windows-10/
+
 ### SteamVR Controller Bindings support
 Allows you to assign VR controller buttons to specific WTRTI actions.  
 To make settings to be available in SteamVR, you need first go in a "Test Flight", then select WTRTI from the list of programs in the SteamVR's Controller Bindings window.  
@@ -174,10 +177,10 @@ This mode contains additional indicators, that **only** works in "Test Flight":
 
 - Excess power, W
 - Drag, kgf (lbf)
-- Total mass, kg(lb)
-- No fuel mass, kg(lb)
+- Total mass, kg (lb)
+- No fuel mass, kg (lb)
 - Thrust to Weight ratio
-- Critical G, %
+- Critical G, % (in-battle approximate version)
 
 To make these indicators to work, you need to find the "debug" section in the "config.blk" file in the game root folder, and to add a new line:
 ```
@@ -221,8 +224,6 @@ Set another PC's **local** IP address in **Settings** -> **Network** -> **Addres
 ![#](images/wtrti_network_ip.png)
 
 ## DCS World Setup
-Set another PC's **local** IP address in **Settings** -> **Network** -> **Address**:
-
 1. Copy-Paste the **DCS/Scripts/Export.lua** into **%USERPROFILE%/Saved Games/DCS/Scripts/** folder.  
    For **DCS Open Beta** use this directory: **%USERPROFILE%/Saved Games/DCS.openbeta/Scripts/**
 2. Start WTRTI, open **Settings -> Advanced tab -> Enable "TCP Listener"**.
