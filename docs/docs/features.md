@@ -1,13 +1,21 @@
 ## OSD Setup
 ### WTRTI (Built-in)
 
-Enabled by default. Otherwise, **Settings -> OSD -> OSD Type -> WTRTI**  
+This type of OSD is enabled by default, if it is not, you can enable it at:  
+ **Settings -> OSD -> OSD Type -> WTRTI**  
 
-In the game switch to **Fullscreen window** 
+Start the game. In the graphics settings, switch to **Fullscreen window** mode.  
 
 ![#](images/wt_fullscreen_mode.png)
 
-To change the font, see [Changing the fonts](features.md/#wtrti).
+That's it. Go to the "Test Flight" for testing.  
+
+
+!!! tip
+    To change the font, see [Changing the fonts](features.md/#wtrti).  
+!!! warning
+    Make sure that **"Hardware Accelerated GPU Scheduling" (HAGS)** is **disabled**.  
+    See [Troubleshooting section](troubleshooting.md#the-overlay-is-stutteringfreezing-or-data-is-not-updating-when-alt-tab-to-the-game)
 
 ## Tooltips
 Most controls have tooltips. Simply hover over them and a tooltip will appear.
@@ -15,11 +23,11 @@ Most controls have tooltips. Simply hover over them and a tooltip will appear.
 
 
 ## Groups
-Groups controls the display of indicators, their position and layout.  
+Groups controls how the indicators are displayed, their position and layout.  
 
 ![#](images/wtrti_groups.png)
 
-You can move groups by hotkey.   
+You can also move a group using keyboard.   
 Select a group in the main window, **ALT-TAB** to the game and press:  
 **SHIFT + ALT + ARROWS**
 
@@ -60,7 +68,7 @@ Loading profiles by Hotkeys (Profiles slots). Only works while in the battle. Ma
 ![#](images/wtrti_hotkey_profiles.png)
 
 ## Indicators
-Double-click on the indicator in the main window to open the indicator settings window.
+**Double-click** on the indicator in the main window to open the indicator settings window.
 
 ### General
 #### Alert
@@ -69,12 +77,11 @@ Alerts, allows you to specify a range of values within which you will be alerted
 ![#](images/wtrti_alert_1.png)
 ![#](images/wtrti_alert_2.png)
 ![#](images/wtrti_alert_3.png)
-
-For sound alerts, it's recommended that you use a 'relative paths' for audio files by selecting them from the WTRTI root directory, e.g. **Sounds** folder.  
-
+!!! tip
+    For sound alerts, it's recommended that you use a 'relative paths' for audio files by selecting them from the WTRTI root directory, e.g. **Sounds** folder.  
+    This makes the profile more portable, so you can share it with others.
 ![#](images/wtrti_alert_4.png)
 
-This makes the profile more portable, so you can share it with others.
 
 ### Advanced
 #### In "State" list
@@ -94,7 +101,8 @@ The indicator with an in-state key that depends on another in-state indicator (c
 4. Press again **X** to stop.
 
 All these hotkeys you can rebind in the **Settings -> Hotkeys tab**.  
-You can change the logging interval in milliseconds, at **Settings -> General tab -> Benchmark mode -> Logging Interval**.  
+You can change the logging interval in milliseconds, at  
+**Settings -> General tab -> Benchmark mode -> Logging Interval**  
 Generated .CSV files are located in the **Logs** folder.   
 
 In the OSD, the benchmark information is positioned in the last group, so if you want to place it in a specific location, create an empty group and move it as you wish.  
@@ -131,8 +139,9 @@ VR support is implemented with **SteamVR**.
 2. Start WTRTI and enable **VR mode** (**Settings -> Advanced**). 
 3. Click the **VR** button in the main window to display the **VR Settings**.
 
-If you have an iGPU, make sure you are using WTRTI on the discrete GPU (High performance):
-https://pureinfotech.com/set-gpu-app-windows-10/
+!!! warning
+    If you have an **iGPU**, make sure you are using WTRTI on the discrete GPU (High performance):  
+    <https://pureinfotech.com/set-gpu-app-windows-10/>
 
 ### SteamVR Controller Bindings support
 Allows you to assign VR controller buttons to specific WTRTI actions.  
@@ -152,8 +161,9 @@ To make settings to be available in SteamVR, you need first go in a "Test Flight
 
 
 ### Oculus users
-To make the game run through SteamVR, you have to set the compatibility mode to Windows 7, for aces.exe in win32 and win64 folders.  
-How-To: In the game root folder, open win32 folder and find aces.exe, open its Properties and set Compatibility mode to Windows 7:  
+To make the game run through SteamVR, you have to set the compatibility mode to Windows 7, for **aces.exe** in win32 and win64 folders.  
+How-To:  
+In the game root folder, open **win32** folder and find **aces.exe**, open its **Properties** and set **Compatibility mode** to Windows 7:  
 ![#](images/aces_properties.png)
 
 Do the same for aces.exe in the win64 folder.  
@@ -162,13 +172,14 @@ It is also recommended to run the game through Steam.
 
 ## Advanced
 ### RTSS OSD Setup
-1. Install RTSS.
-2. Start WTRTI. 
+1. [Download](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html) and Install RTSS.
+2. Start WTRTI.
 3. **Settings -> OSD -> OSD Type -> RTSS**
 ![#](images/wtrti_rtss_mode.png)
 
-> **Note:** Works with text-based indicators **only**.  
-> Also, RTSS only supports ASCII characters.
+!!! warning 
+    RTSS **only** works with text-based indicators.  
+    Also, RTSS only supports **ASCII** characters.
 
 To change the font, see [Changing the fonts](features.md/#rtss_1).
 
@@ -182,12 +193,19 @@ This mode contains additional indicators, that **only** works in "Test Flight":
 - Thrust to Weight ratio
 - Critical G, % (in-battle approximate version)
 
-To make these indicators to work, you need to find the "debug" section in the "config.blk" file in the game root folder, and to add a new line:
-```
-  enableFMCommands:b=yes
-```
+To make these indicators to work, follow these steps:  
 
-![#](images/wt_config_debug_fm_mode.png)
+1. Open the game root folder.
+2. Open **config.blk** file with text editor.
+3. Find `debug` section
+4. Emplace this line:
+```
+enableFMCommands:b=yes
+```
+![#](images/wt_config_debug_fm_mode.png)  
+5. Save the file and Start/Restart the game.
+6. Enable "FM mode" in **Settings -> Advanced**.
+
 
 ### Custom indicators
 Open **Add** window (**+** button) -> **New** (or **RMB** on the indicators list).  
@@ -195,7 +213,8 @@ Open **Add** window (**+** button) -> **New** (or **RMB** on the indicators list
 ![!](images/wtrti_custom_indic_2.png)
 
 Use **State** window(press **F2** in the main window) to see which parameters are available.  
-> **Note:** Empty **State Key** - switches the current indicator into "label" mode, which will only show OSD name and trigger an alerts.  
+!!! warning
+    Empty **State Key** - switches the indicator into "label" mode, which will only show OSD name and trigger an alerts.  
 
 ![!](images/wtrti_state.png)
 
@@ -208,7 +227,7 @@ Examples:
 #### "Lua-script" option
 Allows you write a custom value processing in Lua.  
 Right after enabling this option and pressing OK, a template script will be created, you can find it at:  
-**Indicators/NAME/update.lua**  
+**`Indicators/NAME/update.lua`**  
 
 Also have a look at the [Lua API](lua-api.md) to see all the functions that are available.  
 
@@ -216,16 +235,18 @@ Also have a look at the [Lua API](lua-api.md) to see all the functions that are 
 Simply switch "Window mode" (Settings->OSD) to "Windowed" and move the "WTRTI OSD" window to a second screen.
 ![#](images/wtrti_windowed_mode.png)
 
-
 ## Receive data from another PC or Console on the local network
 Set another PC's **local** IP address in **Settings** -> **Network** -> **Address**:
-> **Note:** leave 8111 port unchanged
+!!! info
+    Leave 8111 port unchanged
 
 ![#](images/wtrti_network_ip.png)
 
 ## DCS World Setup
-1. Copy-Paste the **DCS/Scripts/Export.lua** into **%USERPROFILE%/Saved Games/DCS/Scripts/** folder.  
-   For **DCS Open Beta** use this directory: **%USERPROFILE%/Saved Games/DCS.openbeta/Scripts/**
+1. Copy-Paste the **DCS/Scripts/Export.lua** into  
+   **`%USERPROFILE%/Saved Games/DCS/Scripts/`**  
+   For **DCS Open Beta** use this directory:  
+   **`%USERPROFILE%/Saved Games/DCS.openbeta/Scripts/`**
 2. Start WTRTI, open **Settings -> Advanced tab -> Enable "TCP Listener"**.
 3. Start the game.
 
@@ -240,15 +261,20 @@ Click on **Advanced** and enable these options:
 
 ![#](images/dcs_mp_server_settings.png)
 
-<!-- TODO: MULTIPLAYER -->
 
 ## Changing the fonts
 ### WTRTI
 ![#](images/wtrti_font_1.png)
 ![#](images/wtrti_font_2.png)
 
+!!! tip
+    You can use a custom font file.  
+    Simply place a TTF file into **Fonts** folder and select it in Settings.
+
 ### RTSS
 ![#](images/rtss_font_1.png)
 ![#](images/rtss_font_2.png)
 
+!!! tip
+    In order to use custom font files, you will need to install them on your system.
 

@@ -2,6 +2,9 @@ site_name: WTRTI
 
 markdown_extensions:
   - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 nav:
   - Getting Started: index.md

@@ -6,16 +6,18 @@ A highly customizable HUD overlay and logging tool for War Thunder.
 
 
 [Download](https://github.com/MeSoftHorny/WTRTI/releases/latest/){ .md-button .md-button--primary }
+[WIP Versions](https://patreon.com/wtrti){ .md-button .md-button--primary }
 
 ## Features
 - More than 30 types of indicators (Climb, AoA, Turning time, Turning radius, Fuel consumption, WEP remain, Booster remain, etc.).  
-> **Note:** Ammo related information is not available (or very limited) on the web-map, so it cannot be added to the app.
+!!! info
+    Ammo related information is not available (or very limited) in the web-map, so it cannot be added to the app.
 - Two types of OSD (On-screen display):  
-    - WTRTI - Built-in OSD. Borderless window with transparency, that requires "Fullscreen Window" mode to be enabled. See [OSD Setup](features.md#wtrti-built-in).  
-    - RTSS - using "RivaTuner Statistics Server" OSD functionality. Works with any window mode.  
-- VR support (SteamVR only).
-- Custom indicators, allows you to make a new indicators with a specific reading properties from localhost:8111.
-- Lua scripts, for custom processing of indicator values.
+    - **WTRTI** - Built-in OSD. Borderless window with transparency, that requires "Fullscreen Window" mode to be enabled. See [OSD Setup](features.md#wtrti-built-in).  
+    - **RTSS** - using "RivaTuner Statistics Server" OSD functionality. Works with any window mode.  
+- VR support (**SteamVR only**).
+- **Custom indicators**, allows you to make a new indicators with a specific reading properties from localhost:8111.
+- **Lua** scripts, for custom processing of indicator values.
 - Custom "Alert" conditions for indicators, with Sound playback.
 - Per-vehicle profile, with automatic loading at the beginning of a battle.
 - Hotkey actions (e.g. Profile loading).
@@ -29,10 +31,11 @@ WTRTI does not make any changes to the game process or its data, it 'only' proce
 
 ## Installation
 1. Download [**the latest version**](https://github.com/MeSoftHorny/WTRTI/releases/latest).
-2. Extract it to a seperate folder with write permissions. 
-> **Note:** Make sure it is not in the game root directory, otherwise the game launcher will delete WTRTI.exe file in there.
+2. Extract it to a seperate folder with **write permissions**.
+>**Note**: Make sure it is not in the game root directory, otherwise the game launcher will delete WTRTI.exe file in there.
 3. Run WTRTI.exe.
-4. [Setup the game for OSD](features.md#wtrti-built-in)
+4. Add some indicators (**+** button) to the list.
+5. [Setup the game for OSD](features.md#wtrti-built-in)
 
 ### Upgrade from previous versions
 Simply extract the downloaded zip file into the folder where the old version is located.
