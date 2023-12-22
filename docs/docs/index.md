@@ -27,7 +27,8 @@ A highly customizable HUD overlay and logging tool for War Thunder.
 - Experimental **DCS World** support, see [DCS World Setup](features.md#dcs-world-setup).
 
 ## How it works
-WTRTI does not make any changes to the game process or its data, it 'only' processes data from localhost:8111(web-map) and displays it on a screen.
+This is **not** a mod.  
+WTRTI **does not** make any changes to the game process or its data, it 'only' processes data from **localhost:8111**(web-map) and displays it on a screen (Overlay).
 
 ## Installation
 1. Download [**the latest version**](https://github.com/MeSoftHorny/WTRTI/releases/latest).
@@ -46,6 +47,7 @@ Simply extract the downloaded zip file into the folder where the old version is 
 - **OS**: **Windows** 7 or higher.  
 **Linux**: Ubuntu 20.04 and later. X11.  
 *Borderless window mode requires Compositor (eg. kwin, compiz).*  
+*Since v2.2.5, you can use __Gamescope__, See [How-To](features.md/#gamescope-setup-linux).*  
 - **Graphics**: Buit-in OSD: Any OpenGL 3.3 compatible GPU or greater.  
 *RTSS OSD: Rivatuner Statistics Server v7.3+. [Download](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)*
 - **VR**: SteamVR. See [VR](features.md/#vr) for more info.

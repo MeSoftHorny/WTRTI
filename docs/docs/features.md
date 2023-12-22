@@ -181,7 +181,35 @@ It is also recommended to run the game through Steam.
     RTSS **only** works with text-based indicators.  
     Also, RTSS only supports **ASCII** characters.
 
-To change the font, see [Changing the fonts](features.md/#rtss_1).
+To change the font, see [Changing the fonts](features.md/#rtss).
+
+### Gamescope Setup (Linux)
+There are two ways to use gamescope:
+
+##### Create a script:
+```
+#!/bin/bash
+export PATH=$PATH:/path/to/WTRTI
+./launcher &
+WTRTI
+```
+Place it in the game root directory, where the launcher is, and run it with Gamescope:  
+`gamescope ./run.sh`
+
+##### From command line:
+1. Start the game with Gamescope:  
+   `gamescope ./launcher`
+2. Launch WTRTI from another command line:  
+   `GAMESCOPE_DISPLAY=:2 ./WTRTI`
+
+!!! note
+    **GAMESCOPE_DISPLAY** should be the name of the gamescope Xwayland server.  
+    When you start the game with gamescope, you can see what name gamescope uses.  
+    `wlserver: [xwayland/server.c:108] Starting Xwayland on :2`
+
+!!! warning
+    After playing, **first close WTRTI** and then the game!  
+    Otherwise it will crash and you may lose your configuration.
 
 ### FM Mode
 This mode contains additional indicators, that **only** works in "Test Flight":  
@@ -237,8 +265,8 @@ Simply switch "Window mode" (Settings->OSD) to "Windowed" and move the "WTRTI OS
 
 ## Receive data from another PC or Console on the local network
 Set another PC's **local** IP address in **Settings** -> **Network** -> **Address**:
-!!! info
-    Leave 8111 port unchanged
+!!! warning
+    Leave **`8111`** port unchanged
 
 ![#](images/wtrti_network_ip.png)
 
@@ -251,12 +279,12 @@ Set another PC's **local** IP address in **Settings** -> **Network** -> **Addres
 3. Start the game.
 
 ### Multiplayer
-#### Hosted server
+##### Hosted server
 Check if the server has these options in the DCS World multiplayer lobby window:
 
 ![#](images/dcs_mp_server_permissions.png)
 
-#### Creating a Server
+##### Creating a Server
 Click on **Advanced** and enable these options:
 
 ![#](images/dcs_mp_server_settings.png)
