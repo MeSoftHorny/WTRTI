@@ -177,6 +177,11 @@ It is also recommended to run the game through Steam.
 3. **Settings -> OSD -> OSD Type -> RTSS**
 ![#](images/wtrti_rtss_mode.png)
 
+!!! note
+    By default RTSS has 2x "On-Screen Display zoom".  
+    If you do not change it to 1x, the position of a group in WTRTI will be magnified by 2.  
+    For example, 200,100 in config becomes 400,200 on screen.  
+
 !!! warning 
     RTSS **only** works with text-based indicators.  
     Also, RTSS only supports **ASCII** characters.
