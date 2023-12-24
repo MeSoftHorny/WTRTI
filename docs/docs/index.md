@@ -47,7 +47,7 @@ Simply extract the downloaded zip file into the folder where the old version is 
 - **OS**: **Windows** 7 or higher.  
 **Linux**: Ubuntu 20.04 and later. X11.  
 *Borderless window mode requires Compositor (eg. kwin, compiz).*  
-*Since v2.2.5, you can use __Gamescope__, See [How-To](features.md/#gamescope-setup-linux).*  
+*Since v2.2.5, you can use __Gamescope (v3.11.0+)__, See [How-To](features.md/#gamescope-setup-linux).*  
 - **Graphics**: Buit-in OSD: Any OpenGL 3.3 compatible GPU or greater.  
 *RTSS OSD: Rivatuner Statistics Server v7.3+. [Download](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)*
 - **VR**: SteamVR. See [VR](features.md/#vr) for more info.
