@@ -17,6 +17,10 @@ end
 
 The `value_proc` function will be called for every available value index (up to 8).  
 
+!!! warning
+    If the script fails, it will be silently kicked, and the value will be `N/A`.  
+    Check the `Logs/WTRTI.log` file for error messages.
+
 ## Functions
 
 #### getStateValue(state_key_str)
