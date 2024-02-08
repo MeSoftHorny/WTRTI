@@ -23,21 +23,5 @@
 
 ![alt text](images/wtrti_themes.png)
 
-## Features
-- More than 30 types of indicators (Climb, AoA, Turning time, Turning radius, Fuel consumption, WEP remain, Booster remain, etc.).  
-  Note: Ammo related information is not available (or very limited) on the web-map, so it cannot be added to the app.
-- Two types of OSD (On-screen display):  
-      RTSS - using "RivaTuner Statistics Server" OSD functionality. Works with any window mode.  
-      WTRTI - Borderless window with transparency. *Requires "Fullscreen Window" mode to be enabled.*
-- Custom indicators, allows you to make a new indicators with a specific reading properties from localhost:8111.
-- Lua scripts, for custom processing of indicator values.
-- Custom "Alert" conditions for indicators, with Sound playback.
-- VR support (SteamVR only).
-- Per-vehicle profile, with automatic loading at the beginning of a battle.
-- Hotkey actions (e.g. Profile loading).
-- Logging flight data into .csv file (Comma-separated values).
-- "Game chat" window, with ability translate in-game chat messages by opening Google Translate web-page or in-app translate (Lingva.ml).
-- "Battle Log" window, with a keyword highlight.
-
 ## Documentation
-Visit __[mesofthorny.github.io/WTRTI](https://mesofthorny.github.io/WTRTI/)__ for more information.
+### Visit [mesofthorny.github.io/WTRTI](https://mesofthorny.github.io/WTRTI/) for more information.
