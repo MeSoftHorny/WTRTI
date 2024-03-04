@@ -133,11 +133,21 @@ You can enable the auto-logging feature, **Battle Log** -> **Settings** -> **Log
 Log files are located in the **Logs** folder.  
 ![#](images/wtrti_battle_log.png)
 
-
 #### Highlights
 Located at Battle Log -> Settings. Allows you to set a "keywords" to highlight certain words in battle log messages.  
 ![#](images/wtrti_battle_log_settings_window.png)
 
+## Vehicle Information
+This window allows you to see some information about your current/selected vehicle.  
+!!! warning
+    This information depends on the pre-generated **offline** database.  
+    **Please do not use it for bug reports!**
+
+![#](images/wtrti_veh_info.png)
+
+You can also see this information in the overlay.  
+All you need is to set up a hotkey at:  
+**Settings -> Hotkeys tab -> Vehicle Information -> Show in OSD**  
 
 ## VR
 VR support is implemented with **SteamVR**.  
