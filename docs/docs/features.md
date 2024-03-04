@@ -31,6 +31,13 @@ You can also move a group using keyboard.
 Select a group in the main window, **ALT-TAB** to the game and press:  
 **SHIFT + ALT + ARROWS**
 
+### Setting up Multiple Groups
+This feature allows you to configure multiple groups at the same time.  
+Select multiple groups from the Groups list, make changes, and click Apply.  
+Only the changed settings will be applied to other groups.  
+You can also move multiple groups at once.  
+If you change the position of the leading group (the last one selected), the leading group's offset (new - old pos) will be applied to the others.  
+
 ### Multi-value layout
 This option allows you to change the layout of neighboring multi-value indicators.
 
