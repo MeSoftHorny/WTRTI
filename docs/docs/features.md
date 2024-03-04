@@ -176,8 +176,11 @@ To make settings to be available in SteamVR, you need first go in a "Test Flight
 - **SHIFT + ALT + Q** - decrease the overlay's size.
 - **SHIFT + ALT + E** - increase the overlay's size.
 
+### Meta/Oculus headsets
+If you are using Steam Link, ensure that the Current OpenXR Runtime is SteamVR.  
+![#](images/steamvr_openxr_runtime.png)
 
-### Oculus users
+### Meta/Oculus headsets (Legacy)
 To make the game run through SteamVR, you have to set the compatibility mode to Windows 7, for **aces.exe** in win32 and win64 folders.  
 How-To:  
 In the game root folder, open **win32** folder and find **aces.exe**, open its **Properties** and set **Compatibility mode** to Windows 7:  
