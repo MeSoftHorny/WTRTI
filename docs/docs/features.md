@@ -22,28 +22,54 @@ Most controls have tooltips. Simply hover over them and a tooltip will appear.
 ![#](images/wtrti_tooltip.png)
 
 
+## Profiles
+Profiles are located in the **Profiles** folder.  
+They may contain: **Groups, Colors, Indicators and VR options** *(optional)*.  
+If you have downloaded a profile (.cfg file), place it in this folder and restart the application.  
+You can then select it from the combo box below.
+![#](images/wtrti_profile_selecting.png)
+
+#### Vehicle Profiles
+The type of profiles that are saved with a vehicle name, e.g. **bf-109f-4, mig_29_9_13, spitfire_mk1**.  
+To save a vehicle profile, go to Test Flight then ALT-TAB to the main window, and click on the Save button (floppy disk at the bottom).  
+
+#### Auto-loading profiles
+This feature allows you to automatically load profiles when you start a battle or change vehicles.  
+You can enable it at: **Settings -> General tab -> Auto-load profiles**  
+![#](images/wtrti_auto_load_profiles.png)
+
+Profiles have loading priorities:  
+1. Vehicle Profiles.  
+2. By a Type: Flighter, Strike, etc.  
+3. By a Propulsion: Prop, Jet.  
+This means that if you have a vehicle profile, it will be loaded first, ignoring other types.  
+
+#### Loading profiles by Hotkeys
+Only works while in the battle.  
+**Settings -> Hotkeys tab -> Loading profiles**
+![#](images/wtrti_hotkey_profiles.png)
+
+
 ## Groups
 Groups controls how the indicators are displayed, their position and layout.  
-
 ![#](images/wtrti_groups.png)
 
 You can also move a group using keyboard.   
 Select a group in the main window, **ALT-TAB** to the game and press:  
 **SHIFT + ALT + ARROWS**
 
-### Setting up Multiple Groups
+#### Setting up Multiple Groups
 This feature allows you to configure multiple groups at the same time.  
 Select multiple groups from the Groups list, make changes, and click Apply.  
 Only the changed settings will be applied to other groups.  
 You can also move multiple groups at once.  
 If you change the position of the leading group (the last one selected), the leading group's offset (new - old pos) will be applied to the others.  
 
-### Multi-value layout
+#### Multi-value layout
 This option allows you to change the layout of neighboring multi-value indicators.
 
 - **List**:  ENGN1, ENGN2, ENGN3, RPM1, RPM2, RMP3, etc
 - **Shuffle**:  ENGN1, RPM1, ENGN2, RPM2, ENGN3, RPM3, etc
-
 
 ## Colors and Color Schemes
 WTRTI works with color slots.  
@@ -57,22 +83,6 @@ You can change the color for every part of an indicator: Name, Value, Units.
 If you want to set up colors for a specific indicator, enable the **Separate** Color scheme, then you can change the colors in the indicators settings.  
 ![#](images/wtrti_color_scheme_separate.png)
 ![#](images/wtrti_indic_colors.png)
-
-
-## Profiles
-### Vehicle Profiles
-Profiles saved with vehicle name, e.g. bf-109f-4, mig_29_9_13, spitfire_mk1.  
-To save the profile, go to Test Flight and ALT-TAB in the main window, and press the Save button.  
-
-### Auto-loading profiles
-Priorities:  
-1. Vehicle Profiles.  
-2. By a Type: Flighter, Strike, etc.  
-3. By a Propulsion: Prop, Jet.  
-
-### Hotkeys
-Loading profiles by Hotkeys (Profiles slots). Only works while in the battle. Max. 5 slots.
-![#](images/wtrti_hotkey_profiles.png)
 
 ## Indicators
 **Double-click** on the indicator in the main window to open the indicator settings window.
