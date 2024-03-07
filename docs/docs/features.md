@@ -24,10 +24,13 @@ Most controls have tooltips. Simply hover over them and a tooltip will appear.
 
 ## Profiles
 Profiles are located in the **Profiles** folder.  
-They may contain: **Groups, Colors, Indicators and VR options** *(optional)*.  
+A profile may contain: **Groups, Colors, Indicators and VR options** *(optional)*.  
+All other settings are stored in the main config file (WTRTI.cfg).  
 If you have downloaded a profile (.cfg file), place it in this folder and restart the application.  
-You can then select it from the combo box below.
+You can then select it from the combo box below.  
 ![#](images/wtrti_profile_selecting.png)
+
+If you want to create a new profile, click the Reset button (circle arrow) in the main window.  
 
 #### Vehicle Profiles
 The type of profiles that are saved with a vehicle name, e.g. **bf-109f-4, mig_29_9_13, spitfire_mk1**.  
