@@ -94,14 +94,26 @@ If you want to set up colors for a specific indicator, enable the **Separate** C
 #### Alert
 Alerts, allows you to specify a range of values within which you will be alerted visually (color change) or sound playback when the value exceeds the threshold.  
 
+For example, you need an alarm when you are at low altitude.  
+Open the "Altitude, m" settings.  
+Add a new alert condition by clicking the Add button in the Alert section.  
+Then double-click on the new element.  
 ![#](images/wtrti_alert_1.png)
+
+Specify the threshold value (e.g 200 meters)  
+**Note:** Using **<** sign means that this condition will only be triggered for values below 200.  
 ![#](images/wtrti_alert_2.png)
+
+Choose a color and sound.  
 ![#](images/wtrti_alert_3.png)
+
+Click on the OK button.  
+This is it. Go to Test Flight for testing!  
+
 !!! tip
     For sound alerts, it's recommended that you use a 'relative paths' for audio files by selecting them from the WTRTI root directory, e.g. **Sounds** folder.  
     This makes the profile more portable, so you can share it with others.
 ![#](images/wtrti_alert_4.png)
-
 
 ### Advanced
 #### In "State" list
