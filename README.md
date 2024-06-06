@@ -21,7 +21,9 @@
 
 <h1 align="center"></h1>
 
-![alt text](images/wtrti_themes.png)
+![#](images/wtrti_themes.png)
+![#](images/wtrti_osd.png)
+![#](images/wtrti_plot_dark.png)
 
 ## Documentation
 ### Visit [mesofthorny.github.io/WTRTI](https://mesofthorny.github.io/WTRTI/) for more information.
