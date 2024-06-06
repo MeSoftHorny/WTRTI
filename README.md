@@ -10,14 +10,14 @@
 
 <h1 align="center"></h1>
 <p align="center">
+<a href="https://www.patreon.com/wtrti" alt="Support Me">
+        <img src="https://img.shields.io/badge/Patreon-Support_Me_-red?style=for-the-badge&logo=patreon" /></a>
 <a href="https://discord.gg/XAEYmRM5NG" alt="Discord">
         <img src="https://img.shields.io/discord/1125375463880138802?logo=discord&label=Discord&style=for-the-badge&color=483D8B" /></a>
-<a href="https://www.patreon.com/wtrti" alt="Support">
-        <img src="https://img.shields.io/badge/Patreon-Support_-red?style=for-the-badge&logo=patreon" /></a>
 </p>
 <h1 align="center"></h1>
 
-**WarThunder Real-Time Information**, a highly customizable HUD overlay and logging tool for War Thunder.    
+**A highly customizable HUD overlay and logging tool for War Thunder.**   
 
 <h1 align="center"></h1>
 
