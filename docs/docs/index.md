@@ -11,7 +11,7 @@
 ## Features
 - **Cross-platform**: Windows, Linux and macOS.
 - More than 30 types of indicators (Climb, AoA, Turning time, Turning radius, Fuel consumption, WEP remain, Booster remain, etc.).  
->  **Note:** **Weapon** or **Ammo** information **is not** available (or very limited) in the web-map, so it cannot be added to the app.  
+  **Note:** **Weapon** or **Ammo** information **is not** available (or very limited) in the web-map, so it cannot be added to the app.  
 - Two types of OSD (On-screen display):  
     - **WTRTI** - Built-in OSD. See [OSD Setup](features.md#wtrti-built-in).  
     - **RTSS** - using "RivaTuner Statistics Server" OSD functionality.  
@@ -40,10 +40,10 @@ WTRTI does **not** make any changes to the game process or its data, it 'only' t
 > **Note**: Make sure it is not in the game root directory, otherwise the game launcher will delete the WTRTI executable.
 3. Start WTRTI.
 4. Add some indicators to the list (**+** button).
-5. Start the game and switch to the "Fullscreen Window" mode in the Graphics settings.
+5. Start the game and switch to the "**Fullscreen Window**" mode in the **Graphics** settings.
 6. Go to "Test Flight".
 
-### Upgrade from previous versions
+### Upgrade from old versions
 Simply extract the downloaded zip file into the folder where the old version is located.
 
 ## System requirements
@@ -53,7 +53,7 @@ Simply extract the downloaded zip file into the folder where the old version is 
   **Windows**: 7 or higher.  
   **Linux**: Ubuntu 20.04 and later. X11 only.  
       *The Overlay requires Compositor (eg. kwin, compiz).*  
-      *Since v2.2.5, you can use __Gamescope (v3.11.0+)__, See [How-To](features.md/#gamescope-setup-linux).*  
+      *Recommended to use __Gamescope__(v3.11.0+) for better performance. See [How-To](features.md/#gamescope-setup-linux).*  
   **macOS**: 11.0 and later.
 - **Graphics**:  
   Buit-in OSD: Any OpenGL 3.3 compatible GPU.  

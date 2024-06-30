@@ -43,7 +43,7 @@ You can enable it at: **Settings -> General tab -> Auto-load profiles**
 
 Profiles have loading priorities:  
 1. Vehicle Profiles.  
-2. By a Type: Flighter, Strike, etc.  
+2. By a Type: Fighter, Strike, etc.  
 3. By a Propulsion: Prop, Jet.  
 This means that if you have a vehicle profile, it will be loaded first, ignoring other types.  
 
@@ -305,7 +305,7 @@ Examples:
 #### "Lua-script" option
 Allows you write a custom value processing in Lua.  
 Right after enabling this option and pressing OK, a template script will be created, you can find it at:  
-**`Indicators/NAME/update.lua`**  
+**`Indicators/<NAME>/update.lua`**  
 
 Also have a look at the [Lua API](lua-api.md) to see all the functions that are available.  
 
