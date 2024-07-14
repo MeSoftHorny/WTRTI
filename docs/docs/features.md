@@ -14,8 +14,9 @@ That's it. Go to the "Test Flight" for testing.
 !!! tip
     To change the font, see [Changing the fonts](features.md/#wtrti).  
 !!! warning
-    Make sure that **"Hardware Accelerated GPU Scheduling" (HAGS)** is **disabled**.  
-    See [Troubleshooting section](troubleshooting.md#the-overlay-is-stutteringfreezing-or-data-is-not-updating-when-alt-tab-to-the-game)
+    Make sure that **"Hardware Accelerated GPU Scheduling" (HAGS)** is **disabled**. Otherwise, it can lead to stuttering when alt-tab to the game.  
+    [**How-to**](https://obsproject.com/kb/hags)  
+    **Note:** If HAGS is disabled, the DLSS Framegen may not work.  
 
 ## Tooltips
 Most controls have tooltips. Simply hover over them and a tooltip will appear.

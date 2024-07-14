@@ -1,6 +1,7 @@
 ## The overlay is stuttering/freezing or Data is not updating when ALT-TAB to the game
 Try to turn off the "Hardware Accelerated GPU Scheduling" (HAGS).  
-**How-To:** <https://obsproject.com/kb/hags>
+**How-To:** <https://obsproject.com/kb/hags>  
+**Note:** If HAGS is disabled, the DLSS Framegen may not work.  
 
 ## Not working with DEV server
 WTRTI may not work if a vehicle does **not** have a cockpit or the game client is **Minimal**, causing some information(**indicators.json**) to be missing on localhost:8111.  
