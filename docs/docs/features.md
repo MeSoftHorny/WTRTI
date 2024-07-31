@@ -111,6 +111,13 @@ Choose a color and sound.
 Click on the OK button.  
 This is it. Go to Test Flight for testing!  
 
+!!! note
+    Multiple conditions are checked from top to bottom.  
+    Only the **last** matched condition will be triggered.  
+
+!!! tip
+    **"min:sec"** indicators are set in seconds.  
+
 !!! tip
     For sound alerts, it's recommended that you use a 'relative paths' for audio files by selecting them from the WTRTI root directory, e.g. **Sounds** folder.  
     This makes the profile more portable, so you can share it with others.
@@ -224,7 +231,7 @@ It is also recommended to run the game through Steam.
 ![#](images/wtrti_rtss_mode.png)
 
 !!! note
-    By default RTSS has 2x "On-Screen Display zoom".  
+    By default RTSS has **2x** "On-Screen Display zoom".  
     If you do not change it to 1x, the position of a group in WTRTI will be magnified by 2.  
     For example, 200,100 in config becomes 400,200 on screen.  
 
@@ -259,8 +266,8 @@ Place it in the game root directory, where the launcher is, and run it with Game
     `wlserver: [xwayland/server.c:108] Starting Xwayland on :2`
 
 !!! warning
-    After playing, **first close WTRTI** and then the game!  
-    Otherwise it will crash and you may lose your configuration.
+    Before closing the game, close WTRTI first and then the game!  
+    Otherwise the app will crash and you may lose your configuration.  
 
 ### FM Mode
 This mode contains additional indicators, that **only** works in "Test Flight":  
@@ -351,8 +358,12 @@ Click on **Advanced** and enable these options:
     Simply place a TTF file into **Fonts** folder and select it in Settings.
 
 ### RTSS
+Start RTSS and click on "Raster 3D" button.  
 ![#](images/rtss_font_1.png)
 ![#](images/rtss_font_2.png)
+
+!!! tip
+    Use monospace fonts for better layout.
 
 !!! tip
     In order to use custom font files, you will need to install them on your system.
