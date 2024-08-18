@@ -10,21 +10,21 @@
 
 ## Features
 - **Cross-platform**: Windows, Linux and macOS.
-- More than 30 types of indicators (Climb, AoA, Turning time, Turning radius, Fuel consumption, WEP remain, Booster remain, etc.).  
+- **VR support** (SteamVR only). See [VR section](features.md/#vr).
+- More than 30 types of indicators (Climb, AoA, Turning time, Fuel consumption, WEP timer, Booster remain, Critical Speed etc.).  
   **Note:** **Weapon** or **Ammo** information **is not** available (or very limited) in the web-map, so it cannot be added to the app.  
 - Two types of OSD (On-screen display):  
     - **WTRTI** - Built-in OSD. See [OSD Setup](features.md#wtrti-built-in).  
-    - **RTSS** - using "RivaTuner Statistics Server" OSD functionality.  
-- **VR support** (SteamVR only).
+    - **RTSS** - using "RivaTuner Statistics Server" OSD functionality. See [RTSS OSD Setup](features.md#rtss-osd-setup).  
+- **Vehicle Information** window, provides additional information (Speed Limits, Critical Overload, Critical AoA, etc).
 - **Custom indicators**, allows you to make a new indicators with a specific reading properties from localhost:8111.
 - **Graphical indicators**. [PRO version](https://patreon.com/wtrti).
+- **Customizable "Alert"** conditions for indicators, with a sound playback.
 - **Lua** scripts, for custom processing of indicator values.
 - **Plot** window that provides real-time visualization of telemetry data on a graph.
 - **Logging** the flight data to **CSV file**.
-- Custom "Alert" conditions for indicators, with a sound playback.
-- **Vehicle Information** window, provides additional information (Speed Limits, Critical Overload, Critical AoA, etc).
-- Per-vehicle profile, with automatic loading at the beginning of a battle.
-- Hotkey actions (e.g. Profile loading).
+- **Per-vehicle profile**, with automatic loading at the beginning of a battle.
+- **Hotkey actions** (e.g. Profile loading).
 - **Game chat** window, with ability translate in-game chat messages by opening Google Translate web-page or 'in-app' translate ([Lingva.ml](https://lingva.ml)).
 - **Battle log** window, with a keyword highlight of the battle events.
 - Experimental **DCS World** support, see [DCS World Setup](features.md#dcs-world-setup).
@@ -41,7 +41,7 @@ WTRTI does **not** make any changes to the game process or its data, it 'only' t
 3. Start WTRTI.
 4. Add some indicators to the list (**+** button).
 5. Start the game and switch to the "**Fullscreen Window**" mode in the **Graphics** settings.  
-   > Note: Make sure that **"Hardware Accelerated GPU Scheduling" (HAGS)** is **disabled**. [**How-to**](https://obsproject.com/kb/hags)  
+> **Note:** If the overlay freezes/stutters, try disabling the **"Hardware Accelerated GPU Scheduling" (HAGS)**. [**How-to**](https://obsproject.com/kb/hags)  
 6. Go to "Test Flight".
 
 ### Upgrade from old versions
@@ -59,4 +59,4 @@ Simply extract the downloaded zip file into the folder where the old version is 
 - **Graphics**:  
   Buit-in OSD: Any OpenGL 3.3 compatible GPU.  
   *RTSS OSD: Rivatuner Statistics Server v7.3+. [Download](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)*
-- **VR**: SteamVR. See [VR](features.md/#vr) for more info.
+- **VR**: SteamVR. See [VR section](features.md/#vr) for more info.
