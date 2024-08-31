@@ -3,6 +3,7 @@
 **A highly customizable HUD overlay and logging tool for War Thunder.**  
 
 ![#](images/wtrti_themes.png)
+![#](images/wtrti_hud.webp)
 ![#](images/wtrti_osd.png)
 
 [Download](https://github.com/MeSoftHorny/WTRTI/releases/latest/){ .md-button .md-button--primary }
@@ -11,7 +12,7 @@
 ## Features
 - **Cross-platform**: Windows, Linux and macOS.
 - **VR support** (SteamVR only). See [VR section](features.md/#vr).
-- More than 30 types of indicators (Climb, AoA, Turning time, Fuel consumption, WEP timer, Booster remain, Critical Speed etc.).  
+- More than 30 types of indicators (Climb, AoA, Turning time, Fuel consumption, WEP timer, Booster remain, Critical Speed, Critical AoA etc.).  
   **Note:** **Weapon** or **Ammo** information **is not** available (or very limited) in the web-map, so it cannot be added to the app.  
 - Two types of OSD (On-screen display):  
     - **WTRTI** - Built-in OSD. See [OSD Setup](features.md#wtrti-built-in).  
@@ -19,7 +20,7 @@
 - **Vehicle Information** window, provides additional information (Speed Limits, Critical Overload, Critical AoA, etc).
 - **Custom indicators**, allows you to make a new indicators with a specific reading properties from localhost:8111.
 - **Graphical indicators**. [PRO version](https://patreon.com/wtrti).
-- **Customizable "Alert"** conditions for indicators, with a sound playback.
+- **Customizable "Alert"** conditions, with a sound playback.
 - **Lua** scripts, for custom processing of indicator values.
 - **Plot** window that provides real-time visualization of telemetry data on a graph.
 - **Logging** the flight data to **CSV file**.
@@ -27,7 +28,7 @@
 - **Hotkey actions** (e.g. Profile loading).
 - **Game chat** window, with ability translate in-game chat messages by opening Google Translate web-page or 'in-app' translate ([Lingva.ml](https://lingva.ml)).
 - **Battle log** window, with a keyword highlight of the battle events.
-- Experimental **DCS World** support, see [DCS World Setup](features.md#dcs-world-setup).
+- **DCS World** support *(Experimental)*, see [DCS World Setup](features.md#dcs-world-setup).
 
 ## How it works
 This is **not** a mod.  
