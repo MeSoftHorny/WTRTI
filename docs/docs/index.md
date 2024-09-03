@@ -7,7 +7,7 @@
 ![#](images/wtrti_osd.png)
 
 [Download](https://github.com/MeSoftHorny/WTRTI/releases/latest/){ .md-button .md-button--primary }
-[PRO Version](https://patreon.com/wtrti){ .md-button .md-button--primary }
+[PRO Version](https://patreon.com/wtrti/about){ .md-button .md-button--primary }
 
 ## Features
 - **Cross-platform**: Windows, Linux and macOS.
@@ -18,9 +18,9 @@
     - **WTRTI** - Built-in OSD. See [OSD Setup](features.md#wtrti-built-in).  
     - **RTSS** - using "RivaTuner Statistics Server" OSD functionality. See [RTSS OSD Setup](features.md#rtss-osd-setup).  
 - **Vehicle Information** window, provides additional information (Speed Limits, Critical Overload, Critical AoA, etc).
-- **Custom indicators**, allows you to make a new indicators with a specific reading properties from localhost:8111.
+- **Custom indicators**, allows you to make a new indicators with a specific reading properties from the game.
 - **Graphical indicators**. [PRO version](https://patreon.com/wtrti).
-- **Customizable "Alert"** conditions, with a sound playback.
+- **Customizable "Alert" conditions**, with a sound playback. See how-to: [Alert](features.md#alert).
 - **Lua** scripts, for custom processing of indicator values.
 - **Plot** window that provides real-time visualization of telemetry data on a graph.
 - **Logging** the flight data to **CSV file**.
@@ -49,10 +49,10 @@ WTRTI does **not** make any changes to the game process or its data, it 'only' t
 Simply extract the downloaded zip file into the folder where the old version is located.
 
 ## System requirements
-- **Game**: Full client+  
+- **Game**: **Full client+**  
 > **Note:** **DEV Server** or **Minimal client** users, see [Troubleshooting](troubleshooting.md#not-working-with-dev-server) for a workaround.
 - **OS**:  
-  **Windows**: 7 or higher.  
+  **Windows**: 7+.  
   **Linux**: Ubuntu 20.04 and later. X11 only.  
       *The Overlay requires Compositor (eg. kwin, compiz).*  
       *Recommended to use __Gamescope__(v3.11.0+) for better performance. See [How-To](features.md/#gamescope-setup-linux).*  

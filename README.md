@@ -19,11 +19,10 @@
 
 **A highly customizable HUD overlay and logging tool for War Thunder.**   
 
+### Visit the [website](https://mesofthorny.github.io/WTRTI/) for more information.
+
 <h1 align="center"></h1>
 
 ![#](images/wtrti_themes.png)
 ![#](images/wtrti_osd.png)
 ![#](images/wtrti_plot_dark.png)
-
-## Documentation
-### Visit [mesofthorny.github.io/WTRTI](https://mesofthorny.github.io/WTRTI/) for more information.
