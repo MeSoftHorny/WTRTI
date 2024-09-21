@@ -44,6 +44,8 @@ WTRTI does **not** make any changes to the game process or its data, it 'only' t
 5. Start the game and switch to the "**Fullscreen Window**" mode in the **Graphics** settings.  
 > **Note:** If the overlay freezes/stutters, try disabling the **"Hardware Accelerated GPU Scheduling" (HAGS)**. [**How-to**](https://obsproject.com/kb/hags)  
 6. Go to "Test Flight".
+!!! tip
+    To move or separate indicators, use [Groups](features.md/#groups).  
 
 ### Upgrade from old versions
 Simply extract the downloaded zip file into the folder where the old version is located.

@@ -57,6 +57,8 @@ Only works while in the battle.
 ## Groups
 Groups controls how the indicators are displayed, their position and layout.  
 ![#](images/wtrti_groups.png)
+!!! tip
+    To quickly access this settings, double-click on a group (e.g. "Main") in the main window.  
 
 You can also move a group using keyboard.   
 Select a group in the main window, **ALT-TAB** to the game and press:  
