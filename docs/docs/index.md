@@ -23,7 +23,7 @@
 - **Customizable "Alert" conditions**, with a sound playback. See how-to: [Alert](features.md#alert).
 - **Lua** scripts, for custom processing of indicator values.
 - **Plot** window that provides real-time visualization of telemetry data on a graph.
-- **Logging** the flight data to **CSV file**.
+- **Logging** of the flight data in a [CSV file](features.md#logging-the-data-to-a-csv-file).
 - **Per-vehicle profile**, with automatic loading at the beginning of a battle.
 - **Hotkey actions** (e.g. Profile loading).
 - **Game chat** window, with ability translate in-game chat messages by opening Google Translate web-page or 'in-app' translate ([Lingva.ml](https://lingva.ml)).

@@ -144,6 +144,7 @@ All these hotkeys you can rebind in the **Settings -> Hotkeys tab**.
 You can change the logging interval in milliseconds, at  
 **Settings -> General tab -> Benchmark mode -> Logging Interval**  
 Generated .CSV files are located in the **Logs** folder.   
+When importing to Excel, select **"Comma"** as Delimiter(Separator).  
 
 In the OSD, the benchmark information is positioned in the last group, so if you want to place it in a specific location, create an empty group and move it as you wish.  
 
