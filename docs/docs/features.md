@@ -190,7 +190,10 @@ VR support is implemented with **SteamVR**.
 
 1. Install **SteamVR**.
 2. Start WTRTI and enable **VR mode** (**Settings -> Advanced**). 
-3. Click the **VR** button in the main window to display the **VR Settings**.
+3. Resize "WTRTI OSD" window to make indicators visible.
+
+!!! note
+    Click on the **VR** button in the main window to display the **VR Settings**.
 
 !!! warning
     If you have an **iGPU**, make sure you are using WTRTI on the discrete GPU (High performance):  
@@ -204,7 +207,7 @@ To make settings to be available in SteamVR, you need first go in a "Test Flight
 - **CTRL + ALT + V** - toggles "HMD tracking" mode.
 - **CTRL + ALT + Z** - toggles "Left controller tracking" mode.
 - **CTRL + ALT + X** - toggles "Right controller tracking" mode.
-- **CTRL + ALT + S** - saves the overlay's position and rotation from "tracking" modes to the no "tracking" mode.
+- **CTRL + ALT + S** - saves the overlay's position and rotation from "tracking" modes to the non-tracking mode.
 - **SHIFT + ALT + R** - resets the overlay's position and rotation(x:0.0, y:0.0, z:-0.5).
 - **SHIFT + ALT + LEFT/RIGHT** - moves the overlay along the X axis.
 - **SHIFT + ALT + UP/DOWN** - moves the overlay along the Y axis.
@@ -213,7 +216,7 @@ To make settings to be available in SteamVR, you need first go in a "Test Flight
 - **SHIFT + ALT + E** - increase the overlay's size.
 
 ### Meta/Oculus headsets
-If you are using Steam Link, ensure that the Current OpenXR Runtime is SteamVR.  
+Make sure that the **Current OpenXR Runtime** is **SteamVR**.  
 ![#](images/steamvr_openxr_runtime.png)
 
 ### Meta/Oculus headsets (Legacy)
