@@ -186,34 +186,37 @@ All you need is to set up a hotkey at:
 **Settings -> Hotkeys tab -> Vehicle Information -> Show in OSD**  
 
 ## VR
-VR support is implemented with **SteamVR**.  
 
-1. Install **SteamVR**.
-2. Start WTRTI and enable **VR mode** (**Settings -> Advanced**). 
-3. Resize "WTRTI OSD" window to make indicators visible.
+### Setup
+1. Start **SteamVR**.
+2. Start WTRTI and enable **VR mode** (**Settings -> Advanced tab**).
+3. Go to the "Test Flight".
+4. Resize the "WTRTI OSD" window to make indicators visible.
+5. Enable "HMD Tracking" with a hotkey (**CTRL + ALT + V**) or in the app **VR Settings -> Tracked device**.
+6. Attach the overlay in space using hotkey **CTRL + ALT + S**.
 
-!!! note
+!!! tip
     Click on the **VR** button in the main window to display the **VR Settings**.
 
 !!! warning
     If you have an **iGPU**, make sure you are using WTRTI on the discrete GPU (High performance):  
     <https://pureinfotech.com/set-gpu-app-windows-10/>
 
-### SteamVR Controller Bindings support
-Allows you to assign VR controller buttons to specific WTRTI actions.  
-To make settings to be available in SteamVR, you need first go in a "Test Flight", then select WTRTI from the list of programs in the SteamVR's Controller Bindings window.  
-
 ### Hotkeys
 - **CTRL + ALT + V** - toggles "HMD tracking" mode.
 - **CTRL + ALT + Z** - toggles "Left controller tracking" mode.
 - **CTRL + ALT + X** - toggles "Right controller tracking" mode.
-- **CTRL + ALT + S** - saves the overlay's position and rotation from "tracking" modes to the non-tracking mode.
-- **SHIFT + ALT + R** - resets the overlay's position and rotation(x:0.0, y:0.0, z:-0.5).
+- **CTRL + ALT + S** - attaches the overlay in space ("None" tracking mode).
+- **SHIFT + ALT + R** - resets the overlay position and rotation(x:0.0, y:0.0, z:-0.5).
 - **SHIFT + ALT + LEFT/RIGHT** - moves the overlay along the X axis.
 - **SHIFT + ALT + UP/DOWN** - moves the overlay along the Y axis.
 - **SHIFT + ALT + PAGE UP/PAGE DOWN** - moves the overlay along the Z axis.
-- **SHIFT + ALT + Q** - decrease the overlay's size.
-- **SHIFT + ALT + E** - increase the overlay's size.
+- **SHIFT + ALT + Q** - reduce overlay size.
+- **SHIFT + ALT + E** - increase overlay size.
+
+### SteamVR Controller Bindings support
+Allows you to assign VR controller buttons to specific WTRTI actions.  
+To make the settings available in SteamVR, you first need to go to "Test Flight" and then select WTRTI from the list of programs in the SteamVR Controller Bindings window.  
 
 ### Meta/Oculus headsets
 Make sure that the **Current OpenXR Runtime** is **SteamVR**.  
@@ -296,7 +299,7 @@ enableFMCommands:b=yes
 ```
 ![#](images/wt_config_debug_fm_mode.png)  
 5. Save the file and Start/Restart the game.
-6. Enable "FM mode" in **Settings -> Advanced**.
+6. Start WTRTI and enable **FM mode** in **Settings -> Advanced**.
 
 
 ### Custom indicators
