@@ -12,6 +12,7 @@
 ## Features
 - **Cross-platform**: Windows, Linux and macOS.
 - **VR support** (SteamVR only). See [VR section](features.md/#vr).
+- **Graphical indicators**. [PRO version](https://patreon.com/wtrti).
 - More than 30 types of indicators (Climb, AoA, Turning time, Fuel consumption, WEP timer, Booster remain, Critical Speed, Critical AoA etc.).  
   **Note:** **Weapon** or **Ammo** information **is not** available (or very limited) in the web-map, so it cannot be added to the app.  
 - Two types of OSD (On-screen display):  
@@ -19,7 +20,6 @@
     - **RTSS** - using "RivaTuner Statistics Server" OSD functionality. See [RTSS OSD Setup](features.md#rtss-osd-setup).  
 - **Vehicle Information** window, provides additional information (Speed Limits, Critical Overload, Critical AoA, etc).
 - **Custom indicators**, allows you to make a new indicators with a specific reading properties from the game.
-- **Graphical indicators**. [PRO version](https://patreon.com/wtrti).
 - **Customizable "Alert" conditions**, with a sound playback. See how-to: [Alert](features.md#alert).
 - **Lua** scripts, for custom processing of indicator values.
 - **Plot** window that provides real-time visualization of telemetry data on a graph.
