@@ -38,16 +38,13 @@ The pipeline looks like this:
 **"State value"** -> **value_proc** -> **value_str_proc**
 
 The script file runs in a **sandboxed environment**, that includes a few standard libs:  
-**
 ```
 math
 string
 table
 ```
-**  
 
 With some functions from the `base` library:  
-**
 ```
 assert
 error
@@ -60,8 +57,7 @@ tostring
 type
 pcall
 xpcall
-```
-**  
+``` 
 
 Each script can contain the following callback functions:  
 
@@ -184,6 +180,23 @@ __OPTIONS = {
 | combo | integer, index of the `options`, begins from 0 |
 | hotkey | none |
 
+### Functions
+#### getOptionValue(key_str [, default_value])
+Returns the option value.  
+__Usage:__  
+`local opt1 = getOptionValue("option_key")`  
+
+or with default value:  
+
+`local opt1 = getOptionValue("option_key", "Default String")`  
+
+#### setOptionValue(key_str, value)
+Allows to set a value for the option.  
+__Usage:__  
+`setOptionValue("option_key", "New String")`  
+
+**Note:** Only initial type of the value is allowed to set.  
+
 ### Groups
 You can make a group of the options, simply add a name key to the table right before the options.  
 
@@ -214,19 +227,3 @@ __OPTIONS = {
 }
 ```
 Maximum level of group depth is 2.  
-
-#### getOptionValue(key_str [, default_value])
-Returns the option value.  
-__Usage:__  
-`local opt1 = getOptionValue("option_key")`  
-
-or with default value:  
-
-`local opt1 = getOptionValue("option_key", "Default String")`  
-
-#### setOptionValue(key_str, value)
-Allows to set a value for the option.  
-__Usage:__  
-`setOptionValue("option_key", "New String")`  
-
-**Note:** Only initial type of the value is allowed to set.  
