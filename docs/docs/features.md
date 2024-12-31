@@ -338,12 +338,14 @@ Set another PC's **local** IP address in **Settings** -> **Network** -> **Addres
 ![#](images/wtrti_network_ip.png)
 
 ## DCS World Setup
-1. Copy-Paste the **DCS/Scripts/Export.lua** into  
-   **`%USERPROFILE%/Saved Games/DCS/Scripts/`**  
-   For **DCS Open Beta** use this directory:  
-   **`%USERPROFILE%/Saved Games/DCS.openbeta/Scripts/`**
-2. Start WTRTI, open **Settings -> Advanced tab -> Enable "TCP Listener"**.
-3. Start the game.
+1. Copy the files from **DCS** folder (in the app root folder) into  
+   **`%USERPROFILE%\Saved Games\DCS\Scripts\`**  
+   For **Open Beta**:  
+   **`%USERPROFILE%\Saved Games\DCS.openbeta\Scripts\`**  
+2. Open the **Scripts** folder and rename **Export.lua.inc** -> **Export.lua**  
+> Note: If you already have Export.lua, simply copy the internals of Export.lua.inc into Export.lua.  
+3. Start WTRTI, open **Settings -> Advanced tab -> Enable "TCP Listener"**.  
+4. Start the game.  
 
 ### Multiplayer
 ##### Hosted server
