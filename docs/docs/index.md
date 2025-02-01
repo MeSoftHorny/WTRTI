@@ -37,8 +37,10 @@ WTRTI does **not** make any changes to the game process or its data, it 'only' t
 ## Installation
 1. Download [**the latest version**](https://github.com/MeSoftHorny/WTRTI/releases/latest).
 2. Extract it to a separate folder with **write permissions**.  
-   Since the program works in portable mode, all files (logs, profiles, etc.) that the program dumps or uses, will be located in the same folder as the executable file.
-> **Note**: Make sure it is not in the game root directory, otherwise the game launcher will delete the WTRTI executable.
+!!! warning
+    Make sure it is not in the game root directory, otherwise the game launcher will delete the WTRTI executable.  
+!!! tip
+    Since the program works in **portable mode**, all files (logs, profiles, etc.) that the program dumps or uses, will be located in the same folder as the executable file.  
 3. Start WTRTI.
 4. Add some indicators to the list (**+** button).
 5. Start the game and switch to the "**Fullscreen Window**" mode in the **Graphics** settings.  

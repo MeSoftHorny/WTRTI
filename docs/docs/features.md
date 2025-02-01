@@ -48,10 +48,16 @@ Profiles have loading priorities:
 3. By a Propulsion: Prop, Jet.  
 This means that if you have a vehicle profile, it will be loaded first, ignoring other types.  
 
-#### Loading profiles by Hotkeys
-Only works while in the battle.  
-**Settings -> Hotkeys tab -> Loading profiles**
+
+## Hotkeys
+**Settings -> Hotkeys tab**
+> Note: Hotkeys only work during a session.  
+
+You can use hotkeys to control OSD visibility, activate Benchmark Mode, or load profiles during a battle.  
 ![#](images/wtrti_hotkey_profiles.png)
+
+!!! tip
+    To rebind the key, click on the input field, press 'Delete', then press the desired key or 'Esc' to leave it empty.  
 
 
 ## Groups
