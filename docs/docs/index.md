@@ -62,7 +62,7 @@ Simply extract the downloaded zip file into the folder where the old version is 
   **Linux**: Ubuntu 20.04 and later. X11 only.  
       *The Overlay requires Compositor (eg. kwin, compiz).*  
       *Recommended to use __Gamescope__(v3.11.0+) for better performance. See [How-To](features.md/#gamescope-setup-linux).*  
-  **macOS**: 11.0 and later.
+  **macOS**: 11.0 and later. Please see `Docs/MACOS_README.txt` in the zip file.  
 - **Graphics**:  
   Buit-in OSD: Any OpenGL 3.3 compatible GPU.  
   *RTSS OSD: Rivatuner Statistics Server v7.3+. [Download](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)*
