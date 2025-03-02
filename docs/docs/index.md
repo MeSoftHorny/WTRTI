@@ -20,19 +20,19 @@
     - **RTSS** - using "RivaTuner Statistics Server" OSD functionality. See [RTSS OSD Setup](features.md#rtss-osd-setup).  
 - **Vehicle Information** window, provides additional information (Speed Limits, Critical Overload, Critical AoA, etc).
 - **Custom indicators**, allows you to make a new indicators with a specific reading properties from the game.
-- **Customizable "Alert" conditions**, with a sound playback. See how-to: [Alert](features.md#alert).
+- **Customizable "Alert" conditions**, with a sound playback. See [Alert](features.md#alert).
 - **Lua** scripts, for custom processing of indicator values.
 - **Plot** window that provides real-time visualization of telemetry data on a graph.
 - **Logging** of the flight data in a [CSV file](features.md#logging-the-data-to-a-csv-file).
 - **Per-vehicle profile**, with automatic loading at the beginning of a battle.
-- **Hotkey actions** (e.g. Profile loading).
+- **Hotkey actions** (e.g. Profile loading, OSD visibility, VR).
 - **Game chat** window, with ability translate in-game chat messages by opening Google Translate web-page or 'in-app' translate ([Lingva.ml](https://lingva.ml)).
 - **Battle log** window, with a keyword highlight of the battle events.
 - **DCS World** support *(Experimental)*, see [DCS World Setup](features.md#dcs-world-setup).
 
 ## How it works
 This is **not** a mod.  
-WTRTI does **not** make any changes to the game process or its data, it 'only' takes data from **localhost:8111**(web-map) and displays it on a screen (Overlay).
+WTRTI does **not** make any changes to the game process or its data, it takes the game telemetry data (official API) and displays it on a screen (Overlay).
 
 ## Installation
 1. Download [**the latest version**](https://github.com/MeSoftHorny/WTRTI/releases/latest).
@@ -62,7 +62,7 @@ Simply extract the downloaded zip file into the folder where the old version is 
   **Linux**: Ubuntu 20.04 and later. X11 only.  
       *The Overlay requires Compositor (eg. kwin, compiz).*  
       *Recommended to use __Gamescope__(v3.11.0+) for better performance. See [How-To](features.md/#gamescope-setup-linux).*  
-  **macOS**: 11.0 and later. Please see `Docs/MACOS_README.txt` in the zip file.  
+  **macOS**: 11.0 and later. See `Docs/MACOS_README.txt` in the zip file.  
 - **Graphics**:  
   Buit-in OSD: Any OpenGL 3.3 compatible GPU.  
   *RTSS OSD: Rivatuner Statistics Server v7.3+. [Download](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)*
