@@ -296,7 +296,8 @@ This mode contains additional indicators, that **only** works in "Test Flight":
 
 To make these indicators to work, follow these steps:  
 
-1. Open the game root folder.
+1. Open the game root folder.  
+   **macOS:** Go to **Application** folder -> RMB on **WarThunderLauncher** -> "Show Package Contents" -> RMB on **WarThunder** -> "Show Package Contents"
 2. Open **config.blk** file with text editor.
 3. Find `debug` section
 4. Emplace this line:
@@ -304,7 +305,7 @@ To make these indicators to work, follow these steps:
 enableFMCommands:b=yes
 ```
 ![#](images/wt_config_debug_fm_mode.png)  
-5. Save the file and Start/Restart the game.
+5. Save the file and start the game.
 6. Start WTRTI and enable **FM mode** in **Settings -> Advanced**.
 
 
