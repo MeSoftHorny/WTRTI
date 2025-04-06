@@ -3,6 +3,7 @@
 **A highly customizable HUD overlay and logging tool for War Thunder.**  
 
 ![#](images/wtrti_themes.png)
+_PRO version HUD:_
 ![#](images/wtrti_hud.webp)
 ![#](images/wtrti_osd.png)
 

@@ -206,7 +206,7 @@ All you need is to set up a hotkey at:
 
 !!! warning
     If you have an **iGPU**, make sure you are using WTRTI on the discrete GPU (High performance):  
-    <https://pureinfotech.com/set-gpu-app-windows-10/>
+    Windows Settings -> System -> Display -> Graphics Settings -> Choose WTRTI -> Options -> High performance.
 
 ### Hotkeys
 - **CTRL + ALT + V** - toggles "HMD tracking" mode.
@@ -226,6 +226,7 @@ To make the settings available in SteamVR, you first need to go to "Test Flight"
 
 ### Meta/Oculus headsets
 Make sure that the **Current OpenXR Runtime** is **SteamVR**.  
+It's also recommended to use **Steam Link** or **ALVR** for streaming instead of **Meta Quest Link**.
 ![#](images/steamvr_openxr_runtime.png)
 
 ### Meta/Oculus headsets (Legacy)
