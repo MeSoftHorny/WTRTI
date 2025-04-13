@@ -1,3 +1,7 @@
+## WTRTI doesn't work with "Custom Battles" or "Custom Difficulty" (Test Flight):
+Make sure you enable the **"Allow web UI"** option in the custom settings.  
+This option was added in the "Hornet's Sting" update (2.45).  
+
 ## Radar Altitude do not work
 The value “radio_altitude” may be missing in telemetry on some aircraft, because the aircraft does not have a radar altitude or the value is displayed on a digital device (modern jets).  
 The game just doesn't provide values from HMD or MFDs.  
