@@ -57,8 +57,8 @@ Simply extract the downloaded zip file into the folder where the old version is 
 
 ## System requirements
 - **Game**: **Full client+**  
-> **Note:** **"Custom Battles"** or **"Custom Difficulty"** (Test Flight): Requires enabled **"Allow web UI"** option.
-> **Note:** **DEV Server** or **Minimal client** users, see [Troubleshooting](troubleshooting.md#not-working-with-dev-server) for a workaround.
+> **Note:** **"Custom Battles"** or **"Custom Difficulty"** (Test Flight): Requires enabled **"Allow web UI"** option.  
+> **Note:** **DEV Server** or **Minimal client** users, see [Troubleshooting](troubleshooting.md#not-working-with-dev-server) for a workaround.  
 - **OS**:  
   **Windows**: 7+.  
   **Linux**: Ubuntu 20.04 and later. X11 only.  
