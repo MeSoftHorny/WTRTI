@@ -195,14 +195,18 @@ All you need is to set up a hotkey at:
 
 ### Setup
 1. Start **SteamVR**.
-2. Start WTRTI and enable **VR mode** (**Settings -> Advanced tab**).
-3. Go to the "Test Flight".
-4. Resize the "WTRTI OSD" window to make indicators visible.
-5. Enable "HMD Tracking" with a hotkey (**CTRL + ALT + V**) or in the app **VR Settings -> Tracked device**.
-6. Attach the overlay in space using hotkey **CTRL + ALT + S**.
+2. Ensure the **Current OpenXR Runtime** is **SteamVR**.
+3. Start WTRTI and enable **VR mode** (**Settings -> Advanced tab**).
+4. Go to the "Test Flight".
+5. Resize the "WTRTI OSD" window to make indicators visible.
+6. Enable "HMD Tracking" with a hotkey (**CTRL + ALT + V**) or in the app **VR Settings -> Tracked device**.
+7. Attach the overlay in space using hotkey **CTRL + ALT + S**.
 
 !!! tip
     Click on the **VR** button in the main window to display the **VR Settings**.
+
+!!! tip
+    More features in the [PRO version](https://patreon.com/wtrti)
 
 !!! warning
     If you have an **iGPU**, make sure you are using WTRTI on the discrete GPU (High performance):  
@@ -228,6 +232,9 @@ To make the settings available in SteamVR, you first need to go to "Test Flight"
 Make sure that the **Current OpenXR Runtime** is **SteamVR**.  
 It's also recommended to use **Steam Link** or **ALVR** for streaming instead of **Meta Quest Link**.
 ![#](images/steamvr_openxr_runtime.png)
+
+### Virtual Desktop users
+Select "SteamVR" as the OpenXR Runtime (Options tab).
 
 ### Meta/Oculus headsets (Legacy)
 To make the game run through SteamVR, you have to set the compatibility mode to Windows 7, for **aces.exe** in win32 and win64 folders.  
