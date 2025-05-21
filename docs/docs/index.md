@@ -43,14 +43,13 @@ WTRTI does **not** make any changes to the game process or its data, it takes th
 !!! tip
     Since the program works in **portable mode**, all files (logs, profiles, etc.) that the program dumps or uses, will be located in the same folder as the executable file.  
     As an exception on **Mac**, the config folder is located at: `~/Library/Application Support/WTRTI/`  
-
 3. Start WTRTI.
 4. Add some indicators to the list (**+** button).
 5. Start the game and switch to the "**Fullscreen Window**" mode in the **Graphics** settings.  
 > **Note:** If the overlay freezes/stutters, try disabling the **"Hardware Accelerated GPU Scheduling" (HAGS)**. [**How-to**](https://obsproject.com/kb/hags)  
 6. Go to "Test Flight".
 !!! tip
-    To move or separate indicators, use [Groups](features.md/#groups).  
+    Use [Groups](features.md/#groups) to change position or layout of indicators.  
 
 ### Upgrade from old versions
 Simply extract the downloaded zip file into the folder where the old version is located.
