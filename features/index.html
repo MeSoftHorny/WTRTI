@@ -1,0 +1,1843 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../troubleshooting/">
+      
+      
+      <link rel="icon" href="../images/icon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Features - WTRTI</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#osd-setup" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+Join our community on 
+<a href="https://discord.com/invite/XAEYmRM5NG">
+  <span class="twemoji discord">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485 485 0 0 0 404.081 32.03a1.82 1.82 0 0 0-1.923.91 338 338 0 0 0-14.9 30.6 447.9 447.9 0 0 0-134.426 0 310 310 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.7 483.7 0 0 0-119.688 37.107 1.7 1.7 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.02 2.02 0 0 0 .765 1.375 487.7 487.7 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348 348 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321 321 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251 251 0 0 0 9.109-7.137 1.82 1.82 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.81 1.81 0 0 1 1.924.233 235 235 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.4 301.4 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391 391 0 0 0 30.014 48.815 1.86 1.86 0 0 0 2.063.7A486 486 0 0 0 610.7 405.729a1.88 1.88 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541M222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241m195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241"/></svg>
+  </span>
+  <strong>Discord</strong>
+</a>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="WTRTI" class="md-header__button md-logo" aria-label="WTRTI" data-md-component="logo">
+      
+  <img src="../images/icon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            WTRTI
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Features
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="WTRTI" class="md-nav__button md-logo" aria-label="WTRTI" data-md-component="logo">
+      
+  <img src="../images/icon.png" alt="logo">
+
+    </a>
+    WTRTI
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Features
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Features
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#osd-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      OSD Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="OSD Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wtrti-built-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      WTRTI (Built-in)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tooltips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tooltips
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Profiles
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Profiles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vehicle-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vehicle Profiles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auto-loading-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Auto-loading profiles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hotkeys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hotkeys
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Groups
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Groups">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-multiple-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up Multiple Groups
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-value-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-value layout
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#colors-and-color-schemes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Colors and Color Schemes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicators
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Indicators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      General
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alert
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-state-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      In "State" list
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging-the-data-to-a-csv-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logging the data to a CSV file
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-chat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Game Chat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battle-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      Battle Log
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Battle Log">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#highlights" class="md-nav__link">
+    <span class="md-ellipsis">
+      Highlights
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vehicle-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vehicle Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vr" class="md-nav__link">
+    <span class="md-ellipsis">
+      VR
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VR">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hotkeys_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hotkeys
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steamvr-controller-bindings-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      SteamVR Controller Bindings support
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaoculus-headsets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meta/Oculus headsets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#virtual-desktop-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      Virtual Desktop users
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaoculus-headsets-legacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meta/Oculus headsets (Legacy)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rtss-osd-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      RTSS OSD Setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gamescope-setup-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gamescope Setup (Linux)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gamescope Setup (Linux)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-a-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a script:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#from-command-line" class="md-nav__link">
+    <span class="md-ellipsis">
+      From command line:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fm-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      FM Mode
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom indicators
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Custom indicators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multiple-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiple values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lua-script-option" class="md-nav__link">
+    <span class="md-ellipsis">
+      "Lua-script" option
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#osd-on-a-second-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      OSD on a second screen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#receive-data-from-another-pc-or-console-on-the-local-network" class="md-nav__link">
+    <span class="md-ellipsis">
+      Receive data from another PC or Console on the local network
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dcs-world-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      DCS World Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DCS World Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multiplayer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiplayer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Multiplayer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hosted-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hosted server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating a Server
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changing-the-fonts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changing the fonts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Changing the fonts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wtrti" class="md-nav__link">
+    <span class="md-ellipsis">
+      WTRTI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rtss" class="md-nav__link">
+    <span class="md-ellipsis">
+      RTSS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lua-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lua API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#osd-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      OSD Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="OSD Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wtrti-built-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      WTRTI (Built-in)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tooltips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tooltips
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Profiles
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Profiles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vehicle-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vehicle Profiles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auto-loading-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Auto-loading profiles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hotkeys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hotkeys
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Groups
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Groups">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-multiple-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up Multiple Groups
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-value-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multi-value layout
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#colors-and-color-schemes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Colors and Color Schemes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicators
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Indicators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general" class="md-nav__link">
+    <span class="md-ellipsis">
+      General
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alert" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alert
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advanced" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in-state-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      In "State" list
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging-the-data-to-a-csv-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logging the data to a CSV file
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-chat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Game Chat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battle-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      Battle Log
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Battle Log">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#highlights" class="md-nav__link">
+    <span class="md-ellipsis">
+      Highlights
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vehicle-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vehicle Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vr" class="md-nav__link">
+    <span class="md-ellipsis">
+      VR
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VR">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hotkeys_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hotkeys
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steamvr-controller-bindings-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      SteamVR Controller Bindings support
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaoculus-headsets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meta/Oculus headsets
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#virtual-desktop-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      Virtual Desktop users
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metaoculus-headsets-legacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Meta/Oculus headsets (Legacy)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advanced
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rtss-osd-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      RTSS OSD Setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gamescope-setup-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gamescope Setup (Linux)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gamescope Setup (Linux)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-a-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a script:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#from-command-line" class="md-nav__link">
+    <span class="md-ellipsis">
+      From command line:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fm-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      FM Mode
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#custom-indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom indicators
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Custom indicators">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multiple-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiple values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lua-script-option" class="md-nav__link">
+    <span class="md-ellipsis">
+      "Lua-script" option
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#osd-on-a-second-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      OSD on a second screen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#receive-data-from-another-pc-or-console-on-the-local-network" class="md-nav__link">
+    <span class="md-ellipsis">
+      Receive data from another PC or Console on the local network
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dcs-world-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      DCS World Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DCS World Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#multiplayer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multiplayer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Multiplayer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hosted-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hosted server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating a Server
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changing-the-fonts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changing the fonts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Changing the fonts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wtrti" class="md-nav__link">
+    <span class="md-ellipsis">
+      WTRTI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rtss" class="md-nav__link">
+    <span class="md-ellipsis">
+      RTSS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Features</h1>
+
+<h2 id="osd-setup">OSD Setup</h2>
+<h3 id="wtrti-built-in">WTRTI (Built-in)</h3>
+<p>This type of OSD is enabled by default, if it is not, you can enable it at:<br />
+<strong>Settings -&gt; OSD -&gt; OSD Type -&gt; WTRTI</strong>  </p>
+<p>Start the game. In the graphics settings, switch to <strong>Fullscreen window</strong> mode.  </p>
+<p><img alt="#" src="../images/wt_fullscreen_mode.png" /></p>
+<p>That's it. Go to the "Test Flight" for testing.  </p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To change the font, see <a href="./#wtrti">Changing the fonts</a>.  </p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Make sure that <strong>"Hardware Accelerated GPU Scheduling" (HAGS)</strong> is <strong>disabled</strong>. Otherwise, it can lead to stuttering when alt-tab to the game.<br />
+<a href="https://obsproject.com/kb/hags"><strong>How-to</strong></a><br />
+<strong>Note:</strong> If HAGS is disabled, the DLSS Framegen may not work.  </p>
+</div>
+<h2 id="tooltips">Tooltips</h2>
+<p>Most controls have tooltips. Simply hover over them and a tooltip will appear.
+<img alt="#" src="../images/wtrti_tooltip.png" /></p>
+<h2 id="profiles">Profiles</h2>
+<p>Profiles are located in the <strong>Profiles</strong> folder.<br />
+A profile may contain: <strong>Groups, Colors, Indicators and VR options</strong> <em>(optional)</em>.<br />
+If you have downloaded a profile (.cfg file), place it in this folder and restart the application.<br />
+You can then select it from the combo box below.<br />
+<img alt="#" src="../images/wtrti_profile_selecting.png" /></p>
+<p>If you want to create a new profile, click the Reset button (circle arrow) in the main window.  </p>
+<h4 id="vehicle-profiles">Vehicle Profiles</h4>
+<p>The type of profiles that are saved with a vehicle name, e.g. <strong>bf-109f-4, mig_29_9_13, spitfire_mk1</strong>.<br />
+To save a vehicle profile, go to Test Flight then ALT-TAB to the main window, and click on the Save button (floppy disk at the bottom).  </p>
+<h4 id="auto-loading-profiles">Auto-loading profiles</h4>
+<p>This feature allows you to automatically load profiles when you start a battle or change vehicles.<br />
+You can enable it at: <strong>Settings -&gt; General tab -&gt; Auto-load profiles</strong><br />
+<img alt="#" src="../images/wtrti_auto_load_profiles.png" /></p>
+<p>Profiles have loading priorities:<br />
+1. Vehicle Profiles.<br />
+2. By a Type: Fighter, Strike, etc.<br />
+3. By a Propulsion: Prop, Jet.<br />
+This means that if you have a vehicle profile, it will be loaded first, ignoring other types.  </p>
+<h2 id="hotkeys">Hotkeys</h2>
+<p><strong>Settings -&gt; Hotkeys tab</strong></p>
+<blockquote>
+<p>Note: Hotkeys only work during a session.  </p>
+</blockquote>
+<p>You can use hotkeys to control OSD visibility, activate Benchmark Mode, or load profiles during a battle.<br />
+<img alt="#" src="../images/wtrti_hotkey_profiles.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To rebind the key, click on the input field, press 'Delete', then press the desired key or 'Esc' to leave it empty.  </p>
+</div>
+<h2 id="groups">Groups</h2>
+<p>With groups, you can control how the indicators are displayed, their position and layout.<br />
+<img alt="#" src="../images/wtrti_groups.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To quickly access this settings, double-click on a group (e.g. "Main") in the main window.  </p>
+</div>
+<p>You can also move a group using keyboard. <br />
+Select a group in the main window, <strong>ALT-TAB</strong> to the game and press:<br />
+<strong>SHIFT + ALT + ARROWS</strong></p>
+<h4 id="setting-up-multiple-groups">Setting up Multiple Groups</h4>
+<p>This feature allows you to configure multiple groups at the same time.<br />
+Select multiple groups from the Groups list, make changes, and click Apply.<br />
+Only the changed settings will be applied to other groups.<br />
+You can also move multiple groups at once.<br />
+If you change the position of the leading group (the last one selected), the leading group's offset (new - old pos) will be applied to the others.  </p>
+<h4 id="multi-value-layout">Multi-value layout</h4>
+<p>This option allows you to change the layout of neighboring multi-value indicators.</p>
+<ul>
+<li><strong>List</strong>:  ENGN1, ENGN2, ENGN3, RPM1, RPM2, RMP3, etc</li>
+<li><strong>Shuffle</strong>:  ENGN1, RPM1, ENGN2, RPM2, ENGN3, RPM3, etc</li>
+</ul>
+<h2 id="colors-and-color-schemes">Colors and Color Schemes</h2>
+<p>WTRTI works with color slots.<br />
+You can <strong>Add</strong>, <strong>Delete</strong> and <strong>Set</strong> a color slots (maximum 32).<br />
+<img alt="#" src="../images/wtrti_color_editor.png" /></p>
+<p>By default, all indicators have the same color scheme (All).<br />
+<img alt="#" src="../images/wtrti_color_scheme_all.png" /></p>
+<p>You can change the color for every part of an indicator: Name, Value, Units.<br />
+If you want to set up colors for a specific indicator, enable the <strong>Separate</strong> Color scheme, then you can change the colors in the indicators settings.<br />
+<img alt="#" src="../images/wtrti_color_scheme_separate.png" />
+<img alt="#" src="../images/wtrti_indic_colors.png" /></p>
+<h2 id="indicators">Indicators</h2>
+<p><strong>Double-click</strong> on the indicator in the main window to open the indicator settings window.</p>
+<h3 id="general">General</h3>
+<h4 id="alert">Alert</h4>
+<p>Alerts, allows you to specify a range of values within which you will be alerted visually (color change) or sound playback when the value exceeds the threshold.  </p>
+<p>For example, you need an alarm when you are at low altitude.<br />
+Open the "Altitude, m" settings.<br />
+Add a new alert condition by clicking the Add button in the Alert section.<br />
+Then double-click on the new element.<br />
+<img alt="#" src="../images/wtrti_alert_1.png" /></p>
+<p>Specify the threshold value (e.g 200 meters)<br />
+<strong>Note:</strong> Using <strong>&lt;</strong> sign means that this condition will only be triggered for values below 200.<br />
+<img alt="#" src="../images/wtrti_alert_2.png" /></p>
+<p>Choose a color and sound.<br />
+<img alt="#" src="../images/wtrti_alert_3.png" /></p>
+<p>Click on the OK button.<br />
+This is it. Go to Test Flight for testing!  </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Multiple conditions are checked from top to bottom.<br />
+Only the <strong>last</strong> matched condition will be triggered.  </p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>"min:sec"</strong> indicators are set in seconds.  </p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For sound alerts, it's recommended that you use a 'relative paths' for audio files by selecting them from the WTRTI root directory, e.g. <strong>Sounds</strong> folder.<br />
+This makes the profile more portable, so you can share it with others.</p>
+</div>
+<p><img alt="#" src="../images/wtrti_alert_4.png" /></p>
+<h3 id="advanced">Advanced</h3>
+<h4 id="in-state-list">In "State" list</h4>
+<p>This option allows you to place the final value of the indicator, after all postprocessing, into the "State" list (press <strong>F2</strong> in the main window).<br />
+Enable the option and specify the <strong>key</strong> that will be in this list.</p>
+<p><img alt="#" src="../images/wtrti_indic_advanced_in_state.png" /></p>
+<p>All In-State indicators are calculated in a separate order, from top to bottom, before Non-In-State indicators.<br />
+The indicator with an in-state key that depends on another in-state indicator (chained), must be placed below that indicator in the main list, otherwise it will be <strong>N/A</strong>.  </p>
+<h2 id="logging-the-data-to-a-csv-file">Logging the data to a CSV file</h2>
+<ol>
+<li>Go to Test Flight.</li>
+<li>Activate <strong>Benchmark mode</strong> with <strong>CTRL + ALT + B</strong> (by default).</li>
+<li>To start logging press <strong>X</strong> key.</li>
+<li>Press again <strong>X</strong> to stop.</li>
+</ol>
+<p>All these hotkeys you can rebind in the <strong>Settings -&gt; Hotkeys tab</strong>.<br />
+You can change the logging interval in milliseconds, at<br />
+<strong>Settings -&gt; General tab -&gt; Benchmark mode -&gt; Logging Interval</strong><br />
+Generated .CSV files are located in the <strong>Logs</strong> folder. <br />
+When importing to Excel, select <strong>"Comma"</strong> as Delimiter(Separator).  </p>
+<p>In the OSD, the benchmark information is positioned in the last group, so if you want to place it in a specific location, create an empty group and move it as you wish.  </p>
+<p><img alt="#" src="../images/wtrti_bench_mode.png" />
+<img alt="#" src="../images/wtrti_logs_folder.png" /></p>
+<p>You can toggle <code>Logging</code> for a specific indicator in the <strong>Indicator's Settings</strong>, by default it's enabled.
+<img alt="#" src="../images/wtrti_indic_logging.png" /></p>
+<h2 id="game-chat">Game Chat</h2>
+<p>Game chat - allows you to see, copy or translate messages of the in-game chat.<br />
+You can enable the auto-logging feature, <strong>Game Chat</strong> -&gt; <strong>Settings</strong> -&gt; <strong>Logging</strong>, this will automatically write into a log file for every game session.<br />
+Log files are located in the <strong>Logs</strong> folder.<br />
+<img alt="#" src="../images/wtrti_game_chat.png" /></p>
+<h2 id="battle-log">Battle Log</h2>
+<p>Shows recorded battle events, with ability Logging to file.<br />
+You can enable the auto-logging feature, <strong>Battle Log</strong> -&gt; <strong>Settings</strong> -&gt; <strong>Logging</strong>, this will automatically write into a log file for every game session.<br />
+Log files are located in the <strong>Logs</strong> folder.<br />
+<img alt="#" src="../images/wtrti_battle_log.png" /></p>
+<h4 id="highlights">Highlights</h4>
+<p>Located at Battle Log -&gt; Settings. Allows you to set a "keywords" to highlight certain words in battle log messages.<br />
+<img alt="#" src="../images/wtrti_battle_log_settings_window.png" /></p>
+<h2 id="vehicle-information">Vehicle Information</h2>
+<p>This window allows you to see some information about your current/selected vehicle.  </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>Please do not use it for bug reports!</strong></p>
+</div>
+<p><img alt="#" src="../images/wtrti_veh_info.png" /></p>
+<p>You can also see this information in the overlay.<br />
+All you need is to set up a hotkey at:<br />
+<strong>Settings -&gt; Hotkeys tab -&gt; Vehicle Information -&gt; Show in OSD</strong>  </p>
+<h2 id="vr">VR</h2>
+<h3 id="setup">Setup</h3>
+<ol>
+<li>Start <strong>SteamVR</strong>.</li>
+<li>Ensure the <strong>Current OpenXR Runtime</strong> is <strong>SteamVR</strong>.</li>
+<li>Start WTRTI and enable <strong>VR mode</strong> (<strong>Settings -&gt; Advanced tab</strong>).</li>
+<li>Go to the "Test Flight".</li>
+<li>Resize the "WTRTI OSD" window to make indicators visible.</li>
+<li>Enable "HMD Tracking" with a hotkey (<strong>CTRL + ALT + V</strong>) or in the app <strong>VR Settings -&gt; Tracked device</strong>.</li>
+<li>Attach the overlay in space using hotkey <strong>CTRL + ALT + S</strong>.</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Click on the <strong>VR</strong> button in the main window to display the <strong>VR Settings</strong>.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>More features in the <a href="https://patreon.com/wtrti">PRO version</a></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you have an <strong>iGPU</strong>, make sure you are using WTRTI on the discrete GPU (High performance):<br />
+Windows Settings -&gt; System -&gt; Display -&gt; Graphics Settings -&gt; Choose WTRTI -&gt; Options -&gt; High performance.</p>
+</div>
+<h3 id="hotkeys_1">Hotkeys</h3>
+<ul>
+<li><strong>CTRL + ALT + V</strong> - toggles "HMD tracking" mode.</li>
+<li><strong>CTRL + ALT + Z</strong> - toggles "Left controller tracking" mode.</li>
+<li><strong>CTRL + ALT + X</strong> - toggles "Right controller tracking" mode.</li>
+<li><strong>CTRL + ALT + S</strong> - attaches the overlay in space ("None" tracking mode).</li>
+<li><strong>SHIFT + ALT + R</strong> - resets the overlay position and rotation(x:0.0, y:0.0, z:-0.5).</li>
+<li><strong>SHIFT + ALT + LEFT/RIGHT</strong> - moves the overlay along the X axis.</li>
+<li><strong>SHIFT + ALT + UP/DOWN</strong> - moves the overlay along the Y axis.</li>
+<li><strong>SHIFT + ALT + PAGE UP/PAGE DOWN</strong> - moves the overlay along the Z axis.</li>
+<li><strong>SHIFT + ALT + Q</strong> - reduce overlay size.</li>
+<li><strong>SHIFT + ALT + E</strong> - increase overlay size.</li>
+</ul>
+<h3 id="steamvr-controller-bindings-support">SteamVR Controller Bindings support</h3>
+<p>Allows you to assign VR controller buttons to specific WTRTI actions.<br />
+To make the settings available in SteamVR, you first need to go to "Test Flight" and then select WTRTI from the list of programs in the SteamVR Controller Bindings window.  </p>
+<h3 id="metaoculus-headsets">Meta/Oculus headsets</h3>
+<p>Make sure that the <strong>Current OpenXR Runtime</strong> is <strong>SteamVR</strong>.<br />
+It's also recommended to use <strong>Steam Link</strong> or <strong>ALVR</strong> for streaming instead of <strong>Meta Quest Link</strong>.
+<img alt="#" src="../images/steamvr_openxr_runtime.png" /></p>
+<h3 id="virtual-desktop-users">Virtual Desktop users</h3>
+<p>Select "SteamVR" as the OpenXR Runtime (Options tab).</p>
+<h3 id="metaoculus-headsets-legacy">Meta/Oculus headsets (Legacy)</h3>
+<p>To make the game run through SteamVR, you have to set the compatibility mode to Windows 7, for <strong>aces.exe</strong> in win32 and win64 folders.<br />
+How-To:<br />
+In the game root folder, open <strong>win32</strong> folder and find <strong>aces.exe</strong>, open its <strong>Properties</strong> and set <strong>Compatibility mode</strong> to Windows 7:<br />
+<img alt="#" src="../images/aces_properties.png" /></p>
+<p>Do the same for aces.exe in the win64 folder.<br />
+It is also recommended to run the game through Steam.  </p>
+<h2 id="advanced_1">Advanced</h2>
+<h3 id="rtss-osd-setup">RTSS OSD Setup</h3>
+<ol>
+<li><a href="https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html">Download</a> and Install RTSS.</li>
+<li>Start WTRTI.</li>
+<li><strong>Settings -&gt; OSD -&gt; OSD Type -&gt; RTSS</strong>
+<img alt="#" src="../images/wtrti_rtss_mode.png" /></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>By default RTSS has <strong>2x</strong> "On-Screen Display zoom".<br />
+If you do not change it to 1x, the position of a group in WTRTI will be magnified by 2.<br />
+For example, 200,100 in config becomes 400,200 on screen.  </p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>RTSS <strong>only</strong> works with text-based indicators.<br />
+Also, RTSS only supports <strong>ASCII</strong> characters.</p>
+</div>
+<p>To change the font, see <a href="./#rtss">Changing the fonts</a>.</p>
+<h3 id="gamescope-setup-linux">Gamescope Setup (Linux)</h3>
+<p>There are two ways to use gamescope:</p>
+<h5 id="create-a-script">Create a script:</h5>
+<p><div class="highlight"><pre><span></span><code>#!/bin/bash
+export PATH=$PATH:/path/to/WTRTI
+./launcher &amp;
+WTRTI
+</code></pre></div>
+Place it in the game root directory, where the launcher is, and run it with Gamescope:<br />
+<code>gamescope ./run.sh</code></p>
+<h5 id="from-command-line">From command line:</h5>
+<ol>
+<li>Start the game with Gamescope:<br />
+<code>gamescope ./launcher</code></li>
+<li>Launch WTRTI from another command line:<br />
+<code>GAMESCOPE_DISPLAY=:2 ./WTRTI</code></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>GAMESCOPE_DISPLAY</strong> should be the name of the gamescope Xwayland server.<br />
+When you start the game with gamescope, you can see what name gamescope uses.<br />
+<code>wlserver: [xwayland/server.c:108] Starting Xwayland on :2</code></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Before closing the game, close WTRTI first and then the game!<br />
+Otherwise the app will crash and you may lose your configuration.  </p>
+</div>
+<h3 id="fm-mode">FM Mode</h3>
+<p>This mode contains additional indicators, that <strong>only</strong> works in "Test Flight":  </p>
+<ul>
+<li>Excess power, W</li>
+<li>Drag, kgf (lbf)</li>
+<li>Total mass, kg (lb)</li>
+<li>No fuel mass, kg (lb)</li>
+<li>Thrust to Weight ratio</li>
+<li>Critical G, % (in-battle approximate version)</li>
+</ul>
+<p>To make these indicators to work, follow these steps:  </p>
+<ol>
+<li>Open the game root folder.<br />
+<strong>macOS:</strong> Go to <strong>Application</strong> folder -&gt; RMB on <strong>WarThunderLauncher</strong> -&gt; "Show Package Contents" -&gt; RMB on <strong>WarThunder</strong> -&gt; "Show Package Contents"</li>
+<li>Open <strong>config.blk</strong> file with text editor.</li>
+<li>Find <code>debug</code> section</li>
+<li>Emplace this line:
+<div class="highlight"><pre><span></span><code>enableFMCommands:b=yes
+</code></pre></div>
+<img alt="#" src="../images/wt_config_debug_fm_mode.png" />  </li>
+<li>Save the file and start the game.</li>
+<li>Start WTRTI and enable <strong>FM mode</strong> in <strong>Settings -&gt; Advanced</strong>.</li>
+</ol>
+<h3 id="custom-indicators">Custom indicators</h3>
+<p>Open <strong>Add</strong> window (<strong>+</strong> button) -&gt; <strong>New</strong> (or <strong>RMB</strong> on the indicators list).<br />
+<img alt="!" src="../images/wtrti_custom_indic_1.png" />
+<img alt="!" src="../images/wtrti_custom_indic_2.png" /></p>
+<p>Use <strong>State</strong> window(press <strong>F2</strong> in the main window) to see which parameters are available.  </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Empty <strong>State Key</strong> - switches the indicator into "label" mode, which will only show OSD name and trigger an alerts.  </p>
+</div>
+<p><img alt="!" src="../images/wtrti_state.png" /></p>
+<h4 id="multiple-values">Multiple values</h4>
+<p>Replacing numbers in the <strong>State Key</strong> with <code>%d</code>, allows reading multiple parameters (e.g. multiple engines) with the same key.<br />
+Examples:<br />
+<strong><code>RPM 1</code></strong> -&gt; <strong><code>RPM %d</code></strong><br />
+<strong><code>manifold_pressure1</code></strong> -&gt; <strong><code>manifold_pressure%d</code></strong>  </p>
+<h4 id="lua-script-option">"Lua-script" option</h4>
+<p>Allows you write a custom value processing in Lua.<br />
+Right after enabling this option and pressing OK, a template script will be created, you can find it at:<br />
+<strong><code>Indicators/&lt;NAME&gt;/update.lua</code></strong>  </p>
+<p>Also have a look at the <a href="../lua-api/">Lua API</a> to see all the functions that are available.  </p>
+<h2 id="osd-on-a-second-screen">OSD on a second screen</h2>
+<p>Simply switch "Window mode" (Settings-&gt;OSD) to "Windowed" and move the "WTRTI OSD" window to a second screen.
+<img alt="#" src="../images/wtrti_windowed_mode.png" /></p>
+<h2 id="receive-data-from-another-pc-or-console-on-the-local-network">Receive data from another PC or Console on the local network</h2>
+<p>Set another PC's <strong>local</strong> IP address in <strong>Settings</strong> -&gt; <strong>Network</strong> -&gt; <strong>Address</strong>:</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Leave <strong><code>8111</code></strong> port unchanged</p>
+</div>
+<p><img alt="#" src="../images/wtrti_network_ip.png" /></p>
+<h2 id="dcs-world-setup">DCS World Setup</h2>
+<ol>
+<li>Copy the files from <strong>DCS</strong> folder (in the app root folder) into<br />
+<strong><code>%USERPROFILE%\Saved Games\DCS\Scripts\</code></strong><br />
+   For <strong>Open Beta</strong>:<br />
+<strong><code>%USERPROFILE%\Saved Games\DCS.openbeta\Scripts\</code></strong>  </li>
+<li>Open the <strong>Scripts</strong> folder and rename <strong>Export.lua.inc</strong> -&gt; <strong>Export.lua</strong>  <blockquote>
+<p>Note: If you already have Export.lua, simply copy the internals of Export.lua.inc into Export.lua.  </p>
+</blockquote>
+</li>
+<li>Start WTRTI, open <strong>Settings -&gt; Advanced tab -&gt; Enable "TCP Listener"</strong>.  </li>
+<li>Start the game.  </li>
+</ol>
+<h3 id="multiplayer">Multiplayer</h3>
+<h5 id="hosted-server">Hosted server</h5>
+<p>Check if the server has these options in the DCS World multiplayer lobby window:</p>
+<p><img alt="#" src="../images/dcs_mp_server_permissions.png" /></p>
+<h5 id="creating-a-server">Creating a Server</h5>
+<p>Click on <strong>Advanced</strong> and enable these options:</p>
+<p><img alt="#" src="../images/dcs_mp_server_settings.png" /></p>
+<h2 id="changing-the-fonts">Changing the fonts</h2>
+<h3 id="wtrti">WTRTI</h3>
+<p><img alt="#" src="../images/wtrti_font_1.png" />
+<img alt="#" src="../images/wtrti_font_2.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can use a custom font file.<br />
+Simply place a TTF file into <strong>Fonts</strong> folder and select it in Settings.</p>
+</div>
+<h3 id="rtss">RTSS</h3>
+<p>Start RTSS and click on "Raster 3D" button.<br />
+<img alt="#" src="../images/rtss_font_1.png" />
+<img alt="#" src="../images/rtss_font_2.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Use monospace fonts for better layout.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>In order to use custom font files, you will need to install them on your system.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://discord.com/invite/XAEYmRM5NG" target="_blank" rel="noopener" title="discord.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485 485 0 0 0 404.081 32.03a1.82 1.82 0 0 0-1.923.91 338 338 0 0 0-14.9 30.6 447.9 447.9 0 0 0-134.426 0 310 310 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.7 483.7 0 0 0-119.688 37.107 1.7 1.7 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.02 2.02 0 0 0 .765 1.375 487.7 487.7 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348 348 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321 321 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251 251 0 0 0 9.109-7.137 1.82 1.82 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.81 1.81 0 0 1 1.924.233 235 235 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.4 301.4 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391 391 0 0 0 30.014 48.815 1.86 1.86 0 0 0 2.063.7A486 486 0 0 0 610.7 405.729a1.88 1.88 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541M222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241m195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://patreon.com/wtrti" target="_blank" rel="noopener" title="patreon.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M489.7 153.8c-.1-65.4-51-119-110.7-138.3C304.8-8.5 207-5 136.1 28.4 50.3 68.9 23.3 157.7 22.3 246.2 21.5 319 28.7 510.6 136.9 512c80.3 1 92.3-102.5 129.5-152.3 26.4-35.5 60.5-45.5 102.4-55.9 72-17.8 121.1-74.7 121-150z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.instant", "navigation.indexes"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
