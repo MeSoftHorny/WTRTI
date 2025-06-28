@@ -26,7 +26,6 @@ Most controls have tooltips. Simply hover over them and a tooltip will appear.
 ## Profiles
 Profiles are located in the **Profiles** folder.  
 A profile may contain: **Groups, Colors, Indicators and VR options** *(optional)*.  
-All other settings are stored in the main config file (WTRTI.cfg).  
 If you have downloaded a profile (.cfg file), place it in this folder and restart the application.  
 You can then select it from the combo box below.  
 ![#](images/wtrti_profile_selecting.png)
@@ -61,7 +60,7 @@ You can use hotkeys to control OSD visibility, activate Benchmark Mode, or load 
 
 
 ## Groups
-Groups controls how the indicators are displayed, their position and layout.  
+With groups, you can control how the indicators are displayed, their position and layout.  
 ![#](images/wtrti_groups.png)
 !!! tip
     To quickly access this settings, double-click on a group (e.g. "Main") in the main window.  
@@ -182,7 +181,6 @@ Located at Battle Log -> Settings. Allows you to set a "keywords" to highlight c
 ## Vehicle Information
 This window allows you to see some information about your current/selected vehicle.  
 !!! warning
-    This information depends on the pre-generated **offline** database.  
     **Please do not use it for bug reports!**
 
 ![#](images/wtrti_veh_info.png)

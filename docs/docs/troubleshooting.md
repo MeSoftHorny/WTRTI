@@ -22,7 +22,7 @@ Try to turn off the "Hardware Accelerated GPU Scheduling" (HAGS).
 
 ## Not working with DEV server
 WTRTI may not work if a vehicle does **not** have a cockpit or the game client is **Minimal**, causing some information to be missing in the game telemtry.  
-In this case, you can try enabling **"Handle data in every game mode"** (**Settings -> Advanced tab**).  
+As a workaround, you can try enabling **"Handle data in every game mode"** (**Settings -> Advanced tab**).  
 !!! info
     Some indicators may not work due to the limited amount of data available in the telemetry, e.g. Critical AoA, Critical Air Speed.
 !!! warning

@@ -27,7 +27,7 @@ _PRO version HUD:_
 - **Logging** of the flight data in a [CSV file](features.md#logging-the-data-to-a-csv-file).
 - **Per-vehicle profile**, with automatic loading at the beginning of a battle.
 - **Hotkey actions** (e.g. Profile loading, OSD visibility, VR).
-- **Game chat** window, with ability translate in-game chat messages by opening Google Translate web-page or 'in-app' translate ([Lingva.ml](https://lingva.ml)).
+- **Game chat** window, with ability translate in-game chat messages by opening Google Translate web-page.
 - **Battle log** window, with a keyword highlight of the battle events.
 - **DCS World** support *(Experimental)*, see [DCS World Setup](features.md#dcs-world-setup).
 
@@ -41,7 +41,7 @@ WTRTI does **not** make any changes to the game process or its data, it takes th
 !!! warning
     Make sure it is not in the game root directory, otherwise the game launcher will delete the WTRTI executable.  
 !!! tip
-    Since the program works in **portable mode**, all files (logs, profiles, etc.) that the program dumps or uses, will be located in the same folder as the executable file.  
+    Since the program works in **portable mode**, all files (logs, profiles, etc.) that the program uses, will be located in the same folder as the executable file.  
     As an exception on **Mac**, the config folder is located at: `~/Library/Application Support/WTRTI/`  
 3. Start WTRTI.
 4. Add some indicators to the list (**+** button).
@@ -65,6 +65,6 @@ Simply extract the downloaded zip file into the folder where the old version is 
       *Recommended to use __Gamescope__(v3.11.0+) for better performance. See [How-To](features.md/#gamescope-setup-linux).*  
   **macOS**: 11.0 and later. See `Docs/MACOS_README.txt` in the zip file.  
 - **Graphics**:  
-  Buit-in OSD: Any OpenGL 3.3 compatible GPU.  
+  Buit-in OSD: Any OpenGL 3.3 or DX11 compatible GPU.  
   *RTSS OSD: Rivatuner Statistics Server v7.3+. [Download](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)*
 - **VR**: SteamVR. See [VR section](features.md/#vr) for more info.
