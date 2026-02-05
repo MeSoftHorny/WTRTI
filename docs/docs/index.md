@@ -5,17 +5,20 @@
 ![#](images/wtrti_themes.png)
 _PRO version HUD:_
 ![#](images/wtrti_hud.webp)
+_in VR:_
+![#](images/wtrti_vr_support.webp)
 ![#](images/wtrti_osd.png)
 
 [Download](https://github.com/MeSoftHorny/WTRTI/releases/latest/){ .md-button .md-button--primary }
 [PRO Version](https://patreon.com/wtrti/about){ .md-button .md-button--primary }
 
 ## Features
+- **Supported games:** *War Thunder*, *Aces of Thunder* and *DCS World*.
 - **Cross-platform**: Windows, Linux and macOS.
-- **VR support** (SteamVR only). See [VR section](features.md/#vr).
+- **VR support**. See [VR section](features.md/#vr).
 - **Graphical indicators**. [PRO version](https://patreon.com/wtrti).
 - More than 30 types of indicators (Climb, AoA, Turning time, Fuel consumption, WEP timer, Booster remain, Critical Speed, Critical AoA etc.).  
-  **Note:** **Weapon** or **Ammo** information **is not** available (or very limited) in the web-map, so it cannot be added to the app.  
+  **Note:** **Weapon** or **Ammo** information is **not** available (or very limited) in the telemetry, so it cannot be added to the app.  
 - Two types of OSD (On-screen display):  
     - **WTRTI** - Built-in OSD. See [OSD Setup](features.md#wtrti-built-in).  
     - **RTSS** - using "RivaTuner Statistics Server" OSD functionality. See [RTSS OSD Setup](features.md#rtss-osd-setup).  
@@ -39,7 +42,11 @@ WTRTI does **not** make any changes to the game process or its data, it takes th
 1. Download [**the latest version**](https://github.com/MeSoftHorny/WTRTI/releases/latest).
 2. Extract it to a separate folder with **write permissions**.  
 !!! warning
-    Make sure it is not in the game root directory, otherwise the game launcher will delete the WTRTI executable.  
+    Make sure it is **not** in the game root directory, otherwise the game launcher will delete the WTRTI executable.  
+    Also, do **not** store it in a cloud folder (e.g. Google Drive), as the executable might become corrupted over time.  
+!!! warning
+    **macOS:** If macOS quarantines WTRTI; open **Terminal** in the **Apllication** folder and type this line:  
+    `xattr -c WTRTI.app`  
 !!! tip
     Since the program works in **portable mode**, all files (logs, profiles, etc.) that the program uses, will be located in the same folder as the executable file.  
     As an exception on **Mac**, the config folder is located at: `~/Library/Application Support/WTRTI/`  
@@ -60,7 +67,7 @@ Simply extract the downloaded zip file into the folder where the old version is 
 > **Note:** **DEV Server** or **Minimal client** users, see [Troubleshooting](troubleshooting.md#not-working-with-dev-server) for a workaround.  
 - **OS**:  
   **Windows**: 7+.  
-  **Linux**: Ubuntu 20.04 and later. X11 only.  
+  **Linux**: Ubuntu 20.04 and later. X11 or XWayland.  
       *The Overlay requires Compositor (eg. kwin, compiz).*  
       *Recommended to use __Gamescope__(v3.11.0+) for better performance. See [How-To](features.md/#gamescope-setup-linux).*  
   **macOS**: 11.0 and later. See `Docs/MACOS_README.txt` in the zip file.  

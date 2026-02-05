@@ -123,7 +123,7 @@ This is it. Go to Test Flight for testing!
     Only the **last** matched condition will be triggered.  
 
 !!! tip
-    **"min:sec"** indicators are set in seconds.  
+    For the **"min:sec"** indicators, the value should be in seconds.  
 
 !!! tip
     For sound alerts, it's recommended that you use a 'relative paths' for audio files by selecting them from the WTRTI root directory, e.g. **Sounds** folder.  
@@ -207,7 +207,7 @@ All you need is to set up a hotkey at:
     More features in the [PRO version](https://patreon.com/wtrti)
 
 !!! warning
-    If you have an **iGPU**, make sure you are using WTRTI on the discrete GPU (High performance):  
+    If you have an iGPU, make sure WTRTI is running on the discrete GPU (High performance):  
     Windows Settings -> System -> Display -> Graphics Settings -> Choose WTRTI -> Options -> High performance.
 
 ### Hotkeys
