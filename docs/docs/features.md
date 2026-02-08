@@ -234,15 +234,6 @@ It's also recommended to use **Steam Link** or **ALVR** for streaming instead of
 ### Virtual Desktop users
 Select "SteamVR" as the OpenXR Runtime (Options tab).
 
-### Meta/Oculus headsets (Legacy)
-To make the game run through SteamVR, you have to set the compatibility mode to Windows 7, for **aces.exe** in win32 and win64 folders.  
-How-To:  
-In the game root folder, open **win32** folder and find **aces.exe**, open its **Properties** and set **Compatibility mode** to Windows 7:  
-![#](images/aces_properties.png)
-
-Do the same for aces.exe in the win64 folder.  
-It is also recommended to run the game through Steam.  
-
 
 ## Advanced
 ### RTSS OSD Setup

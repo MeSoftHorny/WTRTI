@@ -1,6 +1,6 @@
 # Welcome to WTRTI
 
-**A highly customizable HUD overlay and logging tool for War Thunder.**  
+**A highly customizable HUD overlay and logging tool for War Thunder and [other games](index.md/#features).**  
 
 ![#](images/wtrti_themes.png)
 _PRO version HUD:_
