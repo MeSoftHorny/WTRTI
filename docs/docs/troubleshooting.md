@@ -35,6 +35,10 @@ If you have antivirus software, try adding an exclusion for WTRTI.
 RTSS may conflict with other overlays, try disabling them first.  
 If you running the game through Steam, try to disable Steam Overlay for War Thunder, just open Properties->General-> Uncheck the "Enable the Steam Overlay while in-game".
 
+## The MSI Afterburner/RTSS overlay is displayed on top of the built-in OSD (WTRTI)
+Add an exclusion for WTRTI.exe in the RTSS settings:  
+![#](images/rtss_wtrti_exclusion.png)
+
 ## WTRTI OSD: transparency is not working/black rectangle
 First try to restart your PC.  
 **Windows:** The Compositor on your system is not working properly.  
