@@ -23,15 +23,15 @@ _in VR:_
     - **WTRTI** - Built-in OSD. See [OSD Setup](features.md#wtrti-built-in).  
     - **RTSS** - using "RivaTuner Statistics Server" OSD functionality. See [RTSS OSD Setup](features.md#rtss-osd-setup).  
 - **Vehicle Information** window, provides additional information (Speed Limits, Critical Overload, Critical AoA, etc).
-- **Custom indicators**, allows you to make a new indicators with a specific reading properties from the game.
-- **Customizable "Alert" conditions**, with a sound playback. See [Alert](features.md#alert).
+- **Custom indicators**, allows you to make new indicators with specific reading properties from the game.
+- **Customizable "Alert" conditions**, with sound playback. See [Alert](features.md#alert).
 - **Lua** scripts, for custom processing of indicator values.
 - **Plot** window that provides real-time visualization of telemetry data on a graph.
 - **Logging** of the flight data in a [CSV file](features.md#logging-the-data-to-a-csv-file).
 - **Per-vehicle profile**, with automatic loading at the beginning of a battle.
 - **Hotkey actions** (e.g. Profile loading, OSD visibility, VR).
-- **Game chat** window, with ability translate in-game chat messages by opening Google Translate web-page.
-- **Battle log** window, with a keyword highlight of the battle events.
+- **Game chat** window, with ability to translate in-game chat messages by opening Google Translate web-page.
+- **Battle log** window, with keyword highlighting of battle events.
 - **DCS World** support *(Experimental)*, see [DCS World Setup](features.md#dcs-world-setup).
 
 ## How it works
@@ -45,7 +45,7 @@ WTRTI does **not** make any changes to the game process or its data, it takes th
     Make sure it is **not** in the game root directory, otherwise the game launcher will delete the WTRTI executable.  
     Also, do **not** store it in a cloud folder (e.g. Google Drive), as the executable might become corrupted over time.  
 !!! warning
-    **macOS:** If macOS quarantines WTRTI; open **Terminal** in the **Apllication** folder and type this line:  
+    **macOS:** If macOS quarantines WTRTI; open **Terminal** in the **Applications** folder and type this line:  
     `xattr -c WTRTI.app`  
 !!! tip
     Since the program works in **portable mode**, all files (logs, profiles, etc.) that the program uses, will be located in the same folder as the executable file.  
@@ -72,6 +72,6 @@ Simply extract the downloaded zip file into the folder where the old version is 
       *Recommended to use __Gamescope__(v3.11.0+) for better performance. See [How-To](features.md/#gamescope-setup-linux).*  
   **macOS**: 11.0 and later. See `Docs/MACOS_README.txt` in the zip file.  
 - **Graphics**:  
-  Buit-in OSD: Any OpenGL 3.3 or DX11 compatible GPU.  
+  Built-in OSD: Any OpenGL 3.3 or DX11 compatible GPU.  
   *RTSS OSD: Rivatuner Statistics Server v7.3+. [Download](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html)*
 - **VR**: SteamVR. See [VR section](features.md/#vr) for more info.
