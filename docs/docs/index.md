@@ -68,8 +68,8 @@ Simply extract the downloaded zip file into the folder where the old version is 
 - **OS**:  
   **Windows**: 7+.  
   **Linux**: Ubuntu 20.04 and later. X11 or XWayland.  
-      *The Overlay requires Compositor (eg. kwin, compiz).*  
-      *Recommended to use __Gamescope__(v3.11.0+) for better performance. See [How-To](features.md/#gamescope-setup-linux).*  
+      *X11: The overlay feature requires an enabled compositor (eg. kwin, compiz).*  
+      *If you are having issues with overlay placement, try using __Gamescope__(v3.11.0+). See [How-To](features.md/#gamescope-setup-linux).*  
   **macOS**: 11.0 and later. See `Docs/MACOS_README.txt` in the zip file.  
 - **Graphics**:  
   Built-in OSD: Any OpenGL 3.3 or DX11 compatible GPU.  
